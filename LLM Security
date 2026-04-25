@@ -1,0 +1,21 @@
+Which sample is a member?
+MI_SAMPLE_ALPHA
+Which attack determines whether a known data sample was part of an LLM’s training set?
+Membership inference
+Which data-based threat involves the model reproducing memorised snippets of its training data?
+Training data extraction
+
+What is the employee ID?
+7814
+Which model-based threat attempts to reconstruct sensitive information encoded within a model’s internal representations?
+Model inversion
+
+Did you convince the model? Whats the flag?
+THM{MEMORY_POISONED}
+Which system component combines system instructions, retrieved data, and user input into a single sequence?
+The Context Window
+
+Which package should you NOT download?
+robbco-llm-audit
+LLM-powered social engineering primarily amplifies which existing attack category?
+Phishing
