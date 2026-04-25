@@ -1,0 +1,24 @@
+What is the IP address of the host running an HTTP service on port 8888 in your scan results?
+10.10.45.20
+Which port does MLflow Tracking Server run on by default?
+5000
+
+Which unique HTTP response header does the service on 10.10.45.15:8000 return to identify as an NVIDIA product?
+NV-Status
+When you run grpcurl against 10.10.45.15:8001, what is the name of the inference service listed in the reflection output?
+inference.GRPCInferenceService
+
+What MLflow REST API endpoint would you use to retrieve the artifact storage location for a specific model version?
+/api/2.0/mlflow/model-versions/search
+What is the cleartext password for the MLflow service account stored in the Jupyter notebook on 10.10.45.20?
+Cyphira-MLfl0w-2024!
+
+The Cyphira Jupyter notebook at 10.10.45.20 contains a Hugging Face token (hf_kR7mXpQvL9nJwT2yBcDfAeGh8iKlMnOp). The internal-kb-embedder model on MLflow references sentence-transformers/all-MiniLM-L6-v2 as its base model. What ATLAS technique ID covers the risk of these exposed supply chain dependencies?
+AML.T0010
+You scanned the Cyphira subnet with nmap, probed endpoints with curl, and extracted metadata from MLflow APIs. All of these activities fall under one overarching ATLAS tactic. What is its ID?
+AML.TA0002
+
+A SIEM log shows requests to /api/2.0/mlflow/registered-models/list from an IP with no corresponding MLflow UI session. What tool's access pattern does this match?
+MLOKit
+What is the single most effective quick win for preventing unauthenticated access to the MLflow tracking server?
+Enable MLflow authentication
