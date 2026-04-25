@@ -1,0 +1,28 @@
+What term describes the ability to answer where data came from, when it was collected, and whether it has been modified?
+Data Provenance
+What is the name of the most widely used public corpus that underpins essentially every major model family?
+Common Crawl
+What is the AI equivalent of a Software Bill of Materials (SBOM), used to document dataset sources, licenses, and filtering decisions?
+ML-BOM
+
+What term describes one complete pass of the training algorithm through the entire dataset?
+Epoch
+What problem occurs when a model memorises training data rather than learning general patterns?
+Overfitting
+What post-training optimisation technique reduces the numerical precision of model weights to cut memory and compute requirements?
+Quantisation
+What training approach trains a model across decentralised devices, sending only weight updates rather than raw data to a central server?
+Federated Learning
+
+What is the process of taking a pre-trained model and continuing to train it on a smaller, task-specific dataset?
+Fine-tuning
+What term describes a model that has already been trained on a large general-purpose dataset?
+Pre-trained Model
+
+What documentation artifact accompanies a model to describe what it is, how it was built, and where it falls short?
+Model Card
+What are the billions of floating-point numbers that make up a trained model collectively referred to as?
+Weights
+
+Complete the exercise to get the flag!
+THM{A_m0del_Stud3nt}
