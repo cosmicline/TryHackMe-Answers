@@ -1,0 +1,28 @@
+What term describes the security philosophy of stacking multiple controls so that breaking one still leaves an attacker facing others?
+Defence-in-depth
+
+What role field value should developer instructions always be placed under in structured prompt templates?
+System
+What should never be stored inside a system prompt?
+Sensitive data
+What is the term for limiting a model strictly to its intended purpose in a system prompt?
+Tight Scoping
+Which system prompt hardening pattern directly addresses roleplay and persona-based bypass attempts?
+Persona Restriction
+
+What type of guardrail uses string matching and regex patterns to reject requests based on known attack phrases?
+Blocklist
+What type of guardrail runs before the model receives the user's prompt?
+Input guardrail
+What BERT-based classifier developed by Meta is used as an AI-powered input guardrail?
+Llama Prompt Guard 2
+
+What foundational security principle states that every component should have only the permissions it needs to perform its job?
+Principle of least privilege
+What is the OWASP identifier for the vulnerability caused by unsanitised LLM output being passed to downstream systems?
+LLM05:2025
+What classic web vulnerability can result from LLM-generated JavaScript being rendered in a browser without sanitisation?
+XSS
+
+Can you get the flag?
+THM{fbu349b3u4b934byr93b}
