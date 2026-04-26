@@ -1,0 +1,37 @@
+What serialisation format was created by Hugging Face to replace pickle for ML models?
+SafeTensors
+What PyTorch parameter prevents code execution when loading pickle-based models?
+weights_only=True
+
+What is the first step in the Model Acquisition Framework when a new model is received?
+Quarantine
+Examine the checksums on the VM. Which model file does not match its expected hash?
+model_review_v2.pkl
+
+What object type does the compromised model's telemetry show on load completion, instead of a model?
+int
+
+Which Trail of Bits tool performs static analysis of pickle files?
+Fickling
+What severity level does ModelScan assign to an `os.system` call in a model file?
+CRITICAL
+
+Open the Telemetry terminal. How many layers does the compromised model's architecture contain?
+5
+
+Run inspect_h5_model.py on image_classifier_v2.h5. What is the name of the suspicious Lambda layer?
+manipulate_output
+
+What is the recommended practice for specifying package versions in requirements.txt?
+Version Pinning
+What tool scans Python dependencies against known vulnerability databases?
+pip-audit
+Which SBOM format is maintained by OWASP and focuses on security?
+CycloneDX
+
+What should you establish to detect when an API provider silently updates their model?
+Behavioural Baseline
+What type of artefact should be version-controlled and reviewed like code, to prevent untrusted content from altering LLM behaviour?
+System Prompts
+What company name does Config B identify as the service provider?
+TryTrainML
