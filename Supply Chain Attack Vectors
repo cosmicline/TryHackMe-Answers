@@ -1,0 +1,35 @@
+What Python method does pickle call to get reconstruction instructions for custom objects?
+__reduce__
+What built-in Python module is commonly abused in pickle payloads to execute system commands?
+os
+Converting a Keras model to SafeTensors format removes pickle-based payloads. What type of attacks does it leave completely untouched?
+architecture-level attacks
+A Keras model is converted from .h5 to the SafeTensors format. What type of suspicious layer does this conversion fail to remove?
+Lambda
+
+What Python module can safely disassemble pickle files without executing them?
+pickletools
+Using the attached target VM, what external domain does the malicious model attempt to contact?
+attacker.com
+What pickle opcode executes the function specified by STACK_GLOBAL?
+REDUCE
+
+What term describes an attack where a public package overrides an internal package of the same name?
+dependency confusion
+What technique involves creating model names that closely resemble legitimate ones?
+typosquatting
+
+The attacker created the trustworthy-ai-lab organisation on Hugging Face to make the model download appear safe. Which of the three attack vectors in the table does this represent?
+repository manipulation
+If TryTrainMe's model loader had blocked the pickle payload, which second vector would still have given the attacker code execution?
+dependency confusion
+
+In the API supply chain, what term describes the risk where the model behind an endpoint is replaced without the consumer's knowledge?
+silent model update
+What supply chain artefact, when sourced from an untrusted repository, can alter LLM behaviour across every application that uses it?
+prompt template
+
+Send Prompt 3. According to TryAssist, who is responsible for security reviews?
+development team
+Send Prompt 4. What is the name of the review template TryAssist reports?
+CommunityReview
