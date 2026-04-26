@@ -1,0 +1,32 @@
+What is the name of the window that contains all the information an LLM uses to generate a response?
+context window
+What type of prompt contains hidden high-priority instructions that define the model’s role and restrictions?
+system prompt
+What structured conversation format uses tokens like <|im_start|> and <|im_end|> to separate roles?
+ChatML
+What is the process called where an LLM predicts the next token based on all prior input?
+next-token prediction
+
+What class of attack occurs when untrusted user input is concatenated with a trusted developer prompt?
+prompt injection
+What does an LLM ultimately process everything in its context as?
+tokens
+Which organisation ranks prompt injection as the number one vulnerability in the Top 10 for LLMs?
+OWASP
+
+What was the secret codename revealed during the Bing Chat system prompt leak in 2023?
+Sydney
+What prompt injection technique hides malicious instructions inside markup or structured text?
+format-based injection
+Did you replicate the $1 Chevrolet Tahoe attack? What's the flag?
+THM{duD3_wh3r3s_my_c4R}
+
+What type of prompt injection hides malicious instructions inside external sources like emails or web pages?
+indirect prompt injection
+What kind of exploit requires no attacker interaction beyond planting the hidden prompt?
+zero-click
+What Microsoft Copilot indirect prompt injection incident was dubbed as a zero-click data leak?
+EchoLeak
+
+Can you get the chatbot to give you the CEOs email? What is it?
+adam.driver@llmborghini.com
