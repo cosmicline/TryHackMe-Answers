@@ -1,0 +1,14 @@
+Read the deployment log at /opt/supply-chain/incident/logs/deployment.log. The replacement model came from a different organisation than the original. What is the name of that organisation?
+trustworthy-ai-lab
+How many days passed between the replacement model being deployed and the SOC alert firing?
+21
+Decompile the production model. What Python function does the payload use to execute the shell command?
+system
+What shell command does the payload use to capture the host's identity?
+hostname
+The beacon capture log shows the HTTP method used in the outbound request. What is it?
+POST
+The engineering team staged candidate_model.h5 as a replacement but have not yet deployed it. Run inspect_h5_model.py against it. What is the name of the suspicious layer it contains?
+manipulate_output
+The attacker split the campaign ID across two artefacts to avoid full exposure in any single capture. Examine beacon_capture.log and the candidate model to recover the complete flag.
+THM{b4ckd00r_1n_pl41n_s1ght}
