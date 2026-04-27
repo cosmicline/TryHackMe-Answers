@@ -1,0 +1,12 @@
+Candidate A's load session shows a suspicious file access event. What file did it attempt to read?
+/etc/passwd
+What security guardrail flag is disabled in Candidate A's inference session?
+security_review_flag
+Query Candidate A's agent to find out which policy template governs its review behaviour. What is the policy template?
+CommunityReview
+Candidate A's two supply chain failures are not independent. Find what links them and use it to retrieve the flag. What is the flag?
+THM{supp1y_ch41n_0wn3d}
+Based on your full assessment of all four candidates, what is your production recommendation for Candidate A? Enter: Approve or Reject
+Reject
+Which candidate would you approve for production deployment?
+B
