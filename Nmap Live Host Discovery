@@ -1,0 +1,42 @@
+How many devices can see the ARP Request?
+4
+Did computer6 reply to the ARP Request? (Yea/Nay)
+Yea
+
+What is the first IP address Nmap would scan if you provided 10.10.12.13/29 as your target?
+10.10.12.8
+How many IP addresses will Nmap scan if you provide the following range 10.10.0-255.101-125? 
+6400
+
+What type of packet did computer1 send before the ping?
+ARP Request
+What type of packet did computer1 receive before it was able to send the ping?
+ARP Response
+How many computers responded to the ping request?
+1
+What is the name of the first device that responded to the first ARP Request?
+router
+What is the name of the first device that responded to the second ARP Request?
+computer5
+Send another Ping Request. Did it require new ARP Requests? (yea/nay)
+nay
+
+How many devices can you discover using ARP requests?
+3
+
+What is the option required to tell Nmap to use ICMP Timestamp to discover live hosts?
+-PP
+What is the option required to tell Nmap to use ICMP Address Mask to discover live hosts?
+-PM
+What is the option required to tell Nmap to use ICMP Echo to discover live hosts?
+-PE
+
+Which TCP ping scan does not require a privileged account?
+TCP SYN Ping
+Which TCP ping scan requires a privileged account?
+TCP ACK Ping
+What option do you need to add to Nmap to run a TCP SYN ping scan on the telnet port?
+-PS23
+
+We want Nmap to issue a reverse DNS lookup for all the possibles hosts on a subnet, hoping to get some insights from the names. What option should we add?
+-R
