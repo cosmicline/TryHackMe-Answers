@@ -1,0 +1,29 @@
+What does SIEM stand for?
+Security Information and Event Management system
+
+Is Registry-related activity host-centric or network-centric?
+host-centric
+Is VPN-related activity host-centric or network-centric?
+network-centric
+
+In which location within a Linux environment are HTTP logs stored?
+/var/log/httpd
+
+Which Event ID is generated when event logs are removed?
+104
+What type of alert may require tuning?
+False Positive
+
+After clicking on the Start Suspicious Activity button, which process caused the alert?
+cudominer.exe
+Find the event that caused the alert and identify the user responsible for the process execution.
+chris
+What is the hostname of the suspect user?
+HR_02
+Examine the rule and the suspicious process; which term matched the rule that caused the alert?
+miner
+Which option best represents the event?
+True Positive
+Selecting the right ACTION will display the FLAG. What is the FLAG?
+THM{000_SIEM_INTRO}
+
