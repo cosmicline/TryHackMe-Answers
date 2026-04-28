@@ -1,0 +1,26 @@
+How many ports are open with a port number under 1000?
+3
+What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)
+ms17-010
+
+Find the exploitation code we will run against the machine. What is the full path of the code? (Ex: exploit/........)
+exploit/windows/smb/ms17_010_eternalblue
+Show options and set the one required value. What is the name of this value? (All caps for submission)
+RHOSTS
+
+What is the name of the post module we will use? (Exact path, similar to the exploit we previously selected) 
+post/multi/manage/shell_to_meterpreter
+Select this (use MODULE_PATH). Show options, what option are we required to change?
+SESSION
+
+What is the name of the non-default user? 
+Jon
+Copy this password hash to a file and research how to crack it. What is the cracked password?
+alqfna22
+
+Flag1?
+flag{access_the_machine}
+Flag2? 
+flag{sam_database_elevated_access}
+Flag3?
+flag{admin_documents_can_be_valuable}
