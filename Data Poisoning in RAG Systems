@@ -1,0 +1,30 @@
+What type of poisoning affects model training?
+Training Data
+
+Which corpus poisoning technique increases the density of attacker-controlled documents in a specific semantic region?
+Corpus Flooding
+Which type of poisoning manipulates how documents are represented in vector space without changing the base model?
+Embedding-Level Poisoning
+What corpus poisoning technique imitates the tone and structure of trusted documents?
+Semantic Mimicry
+
+What type of pipeline collects, parses, and indexes documents into an AI system's knowledge base?
+Ingestion Pipeline
+In the 2021 dependency confusion attack, what did the build system automatically pull from public repositories?
+Malicious Packages
+
+What type of poisoning effect causes small, gradual behavioural shifts that appear normal?
+Subtle
+When poisoning alters behaviour but the infrastructure remains operational, what has been corrupted?
+Data
+
+What type of monitoring focuses on detecting gradual changes in model outputs over time?
+Behavioural Monitoring
+In the Amazon fake reviews case study, approximately how many suspected fake reviews did Amazon report blocking before publication in 2023-2024?
+250 million
+
+Which component was modified to influence the assistant’s behaviour?
+Reference Material
+What attack class does modifying trusted knowledge fall under?
+Data Poisoning
+
