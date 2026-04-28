@@ -1,0 +1,18 @@
+What does IAAA stand for?
+Identity, Authentication, Authorisation, Accountability
+
+If you don't get access to more roles but can view the data of another users, what type of privilege escalation is this?
+Horizontal
+What is the note you found when viewing the user's account who had more than $ 1 million?
+THM{Found.the.Millionare!}
+
+What is the flag on the admin user's dashboard?
+THM{Account.confusion.FTW!}
+
+It looks like an attacker tried to perform a brute-force attack, what is the IP of the attacker?
+203.0.113.45
+Looks like they were able to gain access to an account! What is the username associated with that account?
+admin
+What action did the attacker try to do with the account? List the endpoint the accessed.
+/supersecretadminstuff
+
