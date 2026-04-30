@@ -1,0 +1,18 @@
+How would you describe the experience of an overload of security events being triggered within a SOC?
+Alert Fatigue
+
+The act of connecting and integrating security tools and systems into seamless workflows is known as?
+Orchestration
+What do we call a predefined list of actions to handle an incident?
+Playbook
+
+Is manual analysis vital within a SOAR workflow? Yay or Nay?
+yay
+From where is the CVE Patching playbook fetching the new CVEs?
+Advisory lists
+In the CVE Patching playbook, if the assets are found vulnerable even after the patch is deployed, what does the SOC develop next?
+mitigation plan
+
+What is the flag received?
+THM{AUT0M@T1N6_S3CUR1T¥}
+
