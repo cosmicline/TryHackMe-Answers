@@ -1,0 +1,25 @@
+What is the Transfer Reference Number listed in the email's Subject line?
+09674321
+What is the display name of the sender?
+Mr. James Jackson
+What is the sender's email address?
+info@mutawamarine.com
+What email address will receive a reply to this email?
+info.mutawamarine@mail.com
+What is the originating IP address of this email?
+192.119.71.157
+Who is the owner of the originating IP?
+Hostwinds LLC
+What is the full SPF record for this domain?
+v=spf1 include:spf.protection.outlook.com -all
+What is the complete DMARC record for this domain?
+v=DMARC1; p=quarantine; fo=1
+What is the file name of the attachment found in the email?
+SWT_#09674321____PDF__.CAB
+Using the sha256sum command, what is the SHA256 hash of the file?
+2e91c533615a9bb8929ac4bb76707b2444597ce063d84a4b33525e25074fff3f
+What is the attachment's file size in KB (e.g., 122.31 KB)?
+400.26 KB
+Continue your research on the file.
+What is the actual file type of the attachment?
+RAR
