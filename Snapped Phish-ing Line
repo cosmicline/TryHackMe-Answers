@@ -1,0 +1,22 @@
+Which individual received the email regarding a Quote for Services Rendered?
+William McClean
+What email address was used by the adversary to send the phishing emails?
+Accounts.Payable@groupmarketingonline.icu
+What is the root domain of the redirection URL found within the file?
+kennaroads.buzz
+Which company is the login page impersonating?
+Microsoft
+What is the name of the archive file?
+Update365.zip
+Using the sha256sum command, what is the SHA256 hash of the file?
+ba3c15267393419eb08c7b2652b8b6b39b406ef300ae8a18fee4d16b19ac9686
+Aside from phishing, what other threat category is assigned to the ZIP archive?
+Trojan
+How many files are contained within the archive?
+49
+What is the email address of the user who submitted their credentials more than once?
+michael.ascot@swiftspend.finance
+What email address is used by the adversary to collect compromised credentials?
+m3npat@yandex.com
+Using CyberChef (opens in new tab) to decode the flag, what is the secret value?
+THM{pL4y_w1Th_tH3_URL}
