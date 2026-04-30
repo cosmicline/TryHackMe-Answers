@@ -1,0 +1,38 @@
+What Tactic does the Hide Artifacts technique belong to in the ATT&CK Matrix?
+Stealth
+Which ID is associated with the Create Account technique?
+T1136
+
+In which country is Mustang Panda based?
+China
+Which ATT&CK technique ID maps to Mustang Panda’s Reconnaissance tactics?
+T1598
+Which software is Mustang Panda known to use for Access Token Manipulation?
+Cobalt Strike
+
+Which APT group has targeted the aviation sector and has been active since at least 2013?
+APT33
+Which ATT&CK sub-technique used by this group is a key area of concern for companies using Office 365?
+Cloud Accounts
+According to ATT&CK, what tool is linked to the APT group and the sub-technique you identified?
+Ruler
+Which mitigation strategy advises removing inactive or unused accounts to reduce exposure to this sub-technique?
+User Account Management
+What Detection Strategy ID would you implement to detect abused or compromised cloud accounts?
+DET0546
+
+Which ATT&CK Tactic is associated with CAR-2019-07-001 (opens in new tab)?
+Defense Evasion
+What is the Analytic Type for Access Permission Modification?
+Situational Awareness
+
+Which sub-technique of User Behavior Analysis (opens in new tab) would you use to analyze the geolocation data of user logon attempts?
+User Geolocation Logon Pattern Analysis
+Which digital artifact does this sub-technique rely on analyzing?
+Network Traffic
+
+What technique ID is associated with Scrape Blockchain Data (opens in new tab) in the AADAPT framework?
+ADT3025
+Which tactic does LLM Prompt Obfuscation (opens in new tab) belong to in the ATLAS framework?
+Defense Evasion
+
