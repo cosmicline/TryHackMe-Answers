@@ -1,0 +1,44 @@
+What content category is listed for the domain?
+Computer Security
+
+What command can you use in a Linux environment to obtain the SHA256 hash value of an attachment?
+sha256sum
+
+According to the VirusTotal analysis from above, which vendor categorized the URLs as phishing?
+SafeToOpen
+
+What reputable brand is this email tailored to impersonate?
+Netflix
+Based on the email headers, who is the intended recipient of this message?
+redacted@yahoo.com
+What is the Received: from IP address?
+10.197.37.234
+What would you consider a domain of interest based on this field?
+etekno.xyz
+What is the shortened URL?
+https://t.co/yuxfZm8KPg?amp=1
+
+How does ANYRUN classify this suspected phishing email?
+Suspicious activity
+What is the name of the PDF attachment?
+Payment-updateid.pdf
+What is the SHA256 hash of the PDF file?
+cc6f1a04b10bcb168aeec8d870b97bd7c20fc161e8310b5bce1af8ed420e2c24
+Which IP address associated with the process AcroRd32.exe is flagged as malicious?
+2.16.107.24
+Which Windows process is classed as Potentially Bad Traffic?
+svchost.exe
+
+How does ANYRUN classify the .xlsx attachment?
+Malicious activity
+What is the file name of the Excel attachment?
+CBJ200620039539.xlsx
+What is the SHA256 hash value?
+5f94a66e0ce78d17afc2dd27fc17b44b3ffc13ac5f42d3ad6a5dcfb36715f3eb
+What IP address is associated with the malicious domain biz9holdings.com?
+204.11.56.48
+Which other domain is classified as malicious?
+findresults.site
+What vulnerability does this malicious attachment attempt to exploit?
+CVE-2017-11882
+
