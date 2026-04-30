@@ -1,0 +1,42 @@
+Where does the term "Kill Chain" originate from?
+Military
+
+What is the technical term for a piece of software or hardware in IT (Information Technology?)
+Asset
+
+In what year was the Unified Kill Chain framework released?
+2017
+According to the Unified Kill Chain, how many phases are there to an attack?
+18
+What is the name of the attack phase where an attacker employs techniques to evade detection?
+Defense Evasion
+What is the name of the attack phase where an attacker employs techniques to remove data from a network?
+Exfiltration
+What is the name of the attack phase where an attacker achieves their objectives?
+Objectives
+
+What is an example of a tactic to gain a foothold using emails?
+Phishing
+Impersonating an employee to request a password reset is a form of what?
+Social Engineering
+An adversary setting up the Command & Control server is what phase of the Unified Kill Chain?
+Weaponization
+Exploiting a vulnerability present on a system is what phase of the Unified Kill Chain?
+Exploitation
+Moving from one system to another is an example of?
+Pivoting
+Leaving behind a malicious service that allows the adversary to log back into the target is what?
+Persistence
+
+What phase of the Unified Kill Chain would an attacker be seeking to achieve?
+Privilege Escalation
+Which Unified Kill Chain phase does this activity correspond to?
+Credential Access
+
+What Unified Kill Chain phase could describe this activity?
+Exfiltration
+What part of the CIA triad would be affected by this action?
+Confidentiality
+
+What is the flag?
+THM{UKC_SCENARIO}
