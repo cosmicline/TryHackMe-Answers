@@ -1,0 +1,22 @@
+How many ARP packets from the gateway MAC Address were observed?
+10
+What MAC address was used by the attacker to impersonate the gateway?
+02:fe:fe:fe:55:55
+How many Gratuitous ARP replies were observed for 192.168.10.1?
+2
+How many unique MAC addresses claimed the same IP (192.168.10.1)?
+2
+How many ARP spoofing packets were observed in total from the attacker?
+14
+
+How many DNS responses were observed for the domain corp-login.acme-corp.local?
+221
+How many DNS requests were observed from the IPs other than 8.8.8.8?
+2
+What IP did the attacker’s forged DNS response return for the domain?
+192.168.10.55
+
+How many POST requests were observed for our domain corp-login.acme-corp.local?
+1
+What's the password of the victim found in the plaintext after successful ssl stripping attack. 
+Secret123!
