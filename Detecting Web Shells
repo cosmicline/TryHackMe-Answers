@@ -1,0 +1,32 @@
+Which MITRE ATT&CK Persistence sub-technique are web shells associated with?
+T1505.003
+What file extension is commonly used for web shells targeting Microsoft Exchange?
+.aspx
+
+Access the shell and determine which account you have access to by running the whoami command.
+www-data
+List the directory contents and find the flag using the ls and cat commands.
+THM{W3b_Sh3ll_Usag3}
+
+What is the part of the URL that associates values to parameters and can be a valuable indicator of web shell activity?
+query strings
+What auditd syscall would confirm that a file was written to disk following a suspicious POST request to /upload.php?
+creat
+
+What command would you use to locate .php files in the /var/www/ directory?
+find /var/www/ -type f -name "*.php"
+Which Wireshark filter would you use to search specifically for PUT requests?
+http.request.method == "PUT"
+
+Which IP address likely belongs to the attacker?
+203.0.113.66
+What is the first directory that the attacker successfully identifies?
+/wordpress
+What is the name of the .php file the attacker uses to upload the web shell?
+upload_form.php
+What is the first command run by the attacker using the newly uploaded web shell?
+whoami
+After gaining access via the web shell, the attacker uses a command to download a second file onto the server. What is the name of this file?
+linpeas.sh
+Use cat to investigate the web shell code and find the flag.
+THM{W3b_Sh3ll_Int3rnals}
