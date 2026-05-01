@@ -1,0 +1,28 @@
+Have applications shifted from desktop to web over the past couple of decades (Yea/Nay)?
+Yea
+Who is ultimately responsible for ensuring the security of users' data within a web application?
+Web App Owner
+
+What does your web browser send to a server to receive a web page?
+Request
+What web server is most commonly used to host WordPress websites?
+Apache
+What do we call the OS and environment that runs the web server and application?
+Host Machine
+
+What cyber security concept involves stopping or limiting damage from threats?
+Mitigation
+What security control involves ensuring all software and components are up to date?
+Patch Management
+
+Which type of Web Application Firewall operates by running on the same system as the application itself?
+Host-Based
+Which common WAF detection technique works by matching incoming requests against known malicious patterns?
+Signature-Based
+
+What flag did you receive for securing the Web Application?
+THM{web_app_secured!}
+What flag did you receive for securing the Web Server?
+THM{server_security_expert!}
+What flag did you receive for securing the Host Machine?
+THM{the_final_security_layer!}
