@@ -1,0 +1,23 @@
+What do attackers scan, other than, IP addresses, ports, and OS version, in order to identify vulnerabilities in a network?
+Services
+
+Which file contains logs that showcase internal scanning activity?
+log-session-2.csv
+How many log entries are present for the internal IP performing internal scanning activity?
+2276
+What is the external IP address that is performing external scanning activity?
+203.0.113.25
+
+One of the log files contains evidence of a horizontal scan. Which IP range was scanned? Format X.X.X.X/X
+203.0.113.0/24
+In the same log file, there is one IP address on which a vertical scan is performed. Which IP address is this?
+192.168.230.145
+On one of the IP addresses, only a few ports are scanned which host common services. Which are the ports that are scanned on this IP address? Format: port1, port2, port3 in ascending order.
+80, 445, 3389
+
+Which source IP performs a ping sweep attack across a whole subnet?
+192.168.230.127
+The zeek.conn.conn_state value shows the connection state. Using the information provided by this value, identify the type of scan being performed by 203.0.113.25 against 192.168.230.145
+TCP SYN Scan
+Is there any UDP scanning attempt in the logs? Y/N
+N
