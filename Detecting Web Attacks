@@ -1,0 +1,27 @@
+What class of attacks relies on exploiting the user's behavior or device?
+Client-Side
+What is the most common client-side attack?
+XSS
+
+What class of attacks relies on exploiting vulnerabilities within web servers?
+Server-Side
+Which server-side attack lets attackers abuse forms to dump database contents?
+SQLi
+
+What is the attacker's User-Agent while performing the directory fuzz?
+FFUF v2.1.0
+What is the name of the page on which the attacker performs a brute-force attack?
+/login.php
+What is the complete, decoded (opens in new tab) SQLi payload the attacker uses on the /changeusername.php form?
+%' OR '1'='1
+
+What password does the attacker successfully identify in the brute-force attack?
+astrongpassword123
+What is the flag the attacker found in the database using SQLi?
+THM{dumped_the_db}
+
+What do WAFs inspect and filter?
+Web Requests
+Create a custom firewall rule to block any User-Agent that matches "BotTHM".
+IF User-Agent CONTAINS "BotTHM" THEN block
+
