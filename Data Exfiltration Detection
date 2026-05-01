@@ -1,0 +1,27 @@
+Exfiltrating the data through HTTP comes under which technique?
+Network-based
+
+What is the suspicious domain receiving the DNS traffic?
+tunnelcorp.net
+How many suspicious traffic/logs related to dns tunneling were observed?
+315
+Which local IP sent the maximum number of suspicious requests?
+192.168.1.103
+
+How many connections were observed from the guest account?
+5
+Apply the filter; what is the name of the customer-related file exfiltrated from the root account?
+customer_data.xlsx
+Which internal IP was found to be sending the largest payload to an external IP?
+192.168.1.105
+What is the flag hidden inside the ftp stream transferring the CSV file to the suspicious IP?
+THM{ftp_exfil_hidden_flag}
+
+Which internal compromised host was used to exfiltrate this sensitive data?
+192.168.1.103
+What's the flag hidden inside the exfiltrated data?
+THM{http_raw_3xf1ltr4t10n_succ3ss}
+
+What is the flag found in the exfiltrated data through ICMP?
+THM{1cmp_3ch0_3xf1ltr4t10n_succ3ss}
+
