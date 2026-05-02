@@ -1,0 +1,37 @@
+Looking at the last screenshot, which event ID describes a successful login?
+Security / 4624
+
+Which IP performed a brute force of the THM-PC?
+10.10.53.248
+Which user has been breached as a result of the attack?
+Administrator
+What was the Logon ID of the malicious RDP login?
+0x183C36D
+
+Which user was created by the attacker soon after the RDP login?
+svc_sysrestore
+Which two privileged groups was the backdoor user added to?
+Backup Operators, Remote Desktop Users
+Does the Logon ID field match what you saw in the previous task (Yea/Nay)?
+Yea
+
+Which web browser does Sarah use to browse the web?
+Google Chrome
+Which file did Sarah download from the browser?
+C:\Users\sarah.miller\Downloads\ckjg.exe
+Which URL was the file downloaded from?
+http://gettsveriff.com/bgj3/ckjg.exe
+
+Which file was created by the downloaded malware to persist on the host?
+C:\Users\sarah.miller\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\DeleteApp.url
+What is the Command & Control server malware connected to?
+193.46.217.4:7777
+Finally, which domain does the malicious IP correspond to?
+hkfasfsafg.click
+
+Which PowerShell command was executed first?
+Get-ComputerInfo
+When did the Administrator run the first PS command? (Format: April 18, 2025)
+May 18, 2025
+Can you find the flag stored in the PowerShell history? (Format: THM{...})
+THM{it_was_me!}
