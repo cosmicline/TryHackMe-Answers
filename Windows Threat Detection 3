@@ -1,0 +1,33 @@
+Which suspicious archive did the user download?
+URGENT!.zip
+Where did the attackers hide the C2 malware file?
+C:\Users\Administrator\AppData\Roaming\update.exe
+What is the domain of the Command and Control server?
+route.m365officesync.workers.dev
+
+How many times did the threat actor fail to log in to the Administrator?
+6
+After the successful login, which backdoor user did the attacker create?
+support
+Which privileged group was the backdoor user added to?
+Administrators
+
+Which Windows service was created to persist the Nessie malware?
+Data Protection Service
+Which scheduled task was created to persist the Troy malware?
+AmazonSync
+What flag do you get after finding and running the Troy malware?
+THM{c2_is_on_schedule!}
+
+What is the parent process image of the "Odin" malware?
+C:\Windows\explorer.exe
+What is the last line that the "Odin" malware outputs?
+Done doing bad stuff!
+What flag do you get after finding and running the "Kitten" malware?
+THM{persisting_in_basket!}
+
+What is the biggest threat to most corporate Windows networks?
+Ransomware
+At which stage is it best to detect and stop the attack (e.g. Exfiltration)?
+Initial Access
+
