@@ -1,0 +1,34 @@
+Which MITRE technique ID describes Initial Access via a vulnerable mail server?
+T1190
+Which Initial Access method relies on a user opening a malicious email attachment?
+Phishing
+
+Which user seems to be most actively brute-forced by botnets?
+Administrator
+Which IP managed to breach the host via RDP (Logon Type 10)?
+203.205.34.107
+Can you get the real Workstation Name (hostname) of the threat actor?
+DESKTOP-QNBC4UU
+
+Run the www.skype.com file from the Phishing Case 1 folder, which flag do you get?
+THM{misleading_extension}
+From which URL does the malicious LNK download the next stage malware?
+http://wp16.hqywlqpa.thm:8000/cgi-bin/f
+What is the name of the double-extension file you see there?
+best-cat.jpg.exe
+
+Which file did the user download via the web browser?
+C:\Users\Administrator\Downloads\top-cats.zip
+In which folder did the user unarchive the suspicious file?
+C:\Users\Administrator\Pictures
+What is the process ID of the launched phishing malware?
+5484
+Finally, which malicious domain did the malware try to connect to?
+rjj.store
+
+Which USB file was launched by the user?
+E:\Open Sandisk 4GB USB.exe
+Which suspicious file did the malware drop to the disk?
+C:\Users\Public\Documents\winupdate.exe
+To which other USB did the malware propagate?
+F:
