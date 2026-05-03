@@ -1,0 +1,29 @@
+What output do you see after the ping results?
+svctrypingme
+What is the flag returned in the TryPingMe response?
+THM{revshells_practitioner!}
+Which IP spawned a similar reverse shell via the TryPingMe app?
+10.14.105.255
+
+Which command line was used to look for the "pass" keyword in files?
+grep -iR pass .
+Which command line was used to escalate privileges to root?
+su root
+Looking at the detected .env file, what was the root password?
+nGql1pQkGa
+
+What flag did you get after running the malware persisting as a service?
+THM{hidden_penguin!}
+What flag did you get after running the malware persisting as a cron job?
+THM{ressurect_on_reboot!}
+
+Which user was created and added to the sudo group?
+koichi
+Which file was changed to allow SSH key persistence?
+/root/.ssh/authorized_keys
+
+Does Linux ransomware exist and impact organizations worldwide? (Yea/Nay)
+Yea
+Should you learn Linux threats even if working with Windows? (Yea/Nay)
+Yea
+
