@@ -1,0 +1,27 @@
+When did the ubuntu user log in via SSH for the first time?
+Did the ubuntu user use SSH keys instead of a password for the above found date? (Yea/Nay)
+Yea
+When did the SSH password brute force start?
+2025-08-21
+Which four users did the botnet attempt to breach?
+root, roy, sol, user
+Finally, which IP managed to breach the root user?
+91.224.92.79
+
+What is the path to the Python file the attacker attempted to open?
+/opt/trypingme/main.py
+Looking inside the opened file, what's the flag you see there?
+THM{i_am_vulnerable!}
+
+What is the PPID of the suspicious whoami command?
+1018
+Moving up the tree, what is the PID of the TryPingMe app?
+577
+Which program did the attacker use to open a reverse shell?
+Python
+
+Which Initial Access technique is likely used if a trusted app suddenly runs malicious commands?
+Supply Chain Compromise
+Which detection method can you use to detect a variety of Initial Access techniques?
+Process Tree Analysis
+
