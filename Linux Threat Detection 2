@@ -1,0 +1,33 @@
+What is the command's output you discovered?
+Amazon
+What is the full path to the detected antimalware binary?
+/var/lib/ultrasec/malscan
+
+What is the path of the script that initiated the "hostname" command?
+/home/itsupport/debug.sh
+What was the last Discovery command launched by the script?
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu
+Looking at the script content, what's the email of the script author?
+greg@tryhackme.thm
+
+From which domain was the Elastic agent downloaded?
+artifacts.elastic.co
+What is the full path to the downloaded "helper.sh" script?
+/var/tmp/helper.sh
+Which of the downloaded files is more likely to be malicious:
+curl
+
+Which IP address managed to brute-force the exposed SSH?
+45.9.148.125
+Which command did the attacker use to list the last logged-in users?
+last
+Which three EDR processes did the attacker look for with "egrep"?
+ds_agent,falcon,sentinel
+
+What is the name of the malicious archive that was transferred via SCP?
+kernupd.tar.gz
+What was the full command line of the cryptominer launch?
+nohup /tmp/.apt/kernupd/kernupd
+Which IP address range did the attacker scan for an exposed SSH?
+10.10.12.1-10.10.12.10
+
