@@ -1,0 +1,20 @@
+What is the name of the file identified with the flagged SHA256 hash?
+syshelpers.exe
+What is the file type associated with the flagged SHA256 hash?
+Win32 EXE
+What are the execution parents of the flagged hash? List the names chronologically, using a comma as a separator. Note down the hashes for later use.
+361GJX7J,installer.exe
+What is the name of the file being dropped? Note down the hash value for later use.
+Aclient.exe
+Research the second hash in question 3 and list the four malicious dropped files in the order they appear (from up to down), separated by commas.
+searchhost.exe,syshelpers.exe,nat.vbs,runsys.vbs
+Analyse the files related to the flagged IP. What is the malware family that links these files?
+asyncrat
+What is the title of the original report where these flagged indicators are mentioned? Use Google to find the report.
+From Trust to Threat: Hijacked Discord Invites Used for Multi-Stage Malware Delivery
+Which tool did the attackers use to steal cookies from the Google Chrome browser?
+ChromeKatz
+Which phishing technique did the attackers use? Use the report to answer the question.
+ClickFix
+What is the name of the platform that was used to redirect a user to malicious servers?
+Discord
