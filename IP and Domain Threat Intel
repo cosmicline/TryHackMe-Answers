@@ -1,0 +1,38 @@
+From the downloadable report, what are the IP addresses for the A Record associated with our flagged domain, advanced-ip-sccanner[.]com? Answer: IP-1, IP-2.
+172.67.189.143,104.21.9.202
+What nameserver addresses are associated with the IP address? Defang the addresses.
+jaziel[.]ns[.]cloudflare[.]com, summer[.]ns[.]cloudflare[.]com
+
+Open client.rdap.org (opens in new tab) and identify when the 64[.]31[.]63[.]194 IP was logged for registration.
+12/27/2010, 3:51:03 PM
+What roles are assigned to the entity Entity NOC2791-ARIN associated with the IP address?
+administrative,technical
+What is the country's name for the same IP address (64[.]31[.]63[.]194)? 
+France
+Can you identify the Autonomous System linked with the same IP address?
+AS136258
+
+Using shodan.io (opens in new tab), what is the first exposed service name of the 85[.]188[.]1[.]133 IP?
+FTP
+How many ports have been identified as open on the server from Question 1?
+6
+Using search.censys.io (opens in new tab), what is the TLS certificate fingerprint for the IP address?
+5ea8e6046bdabaa8e23a1a012c01d1be5ccd42c66ef2577a59f3b3f0f056d12e
+According to crt.sh (opens in new tab), what is the Subject's commonName of the identified TLS certificate?
+archive.scene.org
+
+What file has been linked to the IP 166[.]1.160[.]118?
+ff4c287c60ede1990442115bddd68201d25a735458f76786a938a0aa881d14ef.exe
+What organisation is identified on historical WHOIS lookups?
+Ace Data Centers, Inc
+
+What is the RIR associated with 170[.]130[.]202[.]134?
+ARIN
+What ASN is the IP connected with?
+AS62904
+Identify the number of NS records for the domain santagift[.]shop.
+4
+Which NS is identified as the Start of Authority (SOA) for the domain?
+ns-298.awsdns-37.com
+When was the domain registered? (Answer: DD/MM/YYYY)
+30/10/2022
