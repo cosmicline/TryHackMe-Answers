@@ -1,0 +1,42 @@
+Can you identify the file and the indicator? (Answer: file, property)
+payroll.pdf, Double extensions
+
+What is the SHA256 hash of the file bl0gger?
+2672b6688d7b32a90f9153d2ff607d6801e6cbde61f509ed36d0450745998d58
+What is the threat classification label used to identify the malicious file?
+trojan.graftor/flystudio
+When was the file first submitted for analysis? (Answer format: YYYY-MM-DD HH:MM:SS)
+2025-05-15 12:03:49
+Which vendor classified the Morse-Code-Analyzer file as non-malicious?
+CyberFortress
+What MITRE technique has been flagged for persistence and privilege escalation for the Morse-Code-Analyzer file?
+DLL Side-Loading
+
+What tags are used to identify the bl0gger.exe malicious file on Hybrid Analysis? (Answer: Tag1, Tag2, Tag3)
+BlackMoon, Discovery, windows-server-utility
+What was the stealth command line executed from the file?
+regsvr32 %WINDIR%\Media\ActiveX.ocx /s
+Which other process was spawned according to the process tree?
+werfault.exe
+The payroll.pdf application seems to be masquerading as which known Windows file?
+svchost.dll
+What associated URL is linked to the file?
+hxxp://121.182.174.27:3000/server.exe
+How many extracted strings were identified from the sandbox analysis of the file?
+454
+
+
+
+What is the SHA256 hash of the file?
+43b0ac119ff957bb209d86ec206ea1ec3c51dd87bebf7b4a649c7e6c7f3756e7
+What family labels are assigned to the file on VirusTotal?
+akira, filecryptor
+When was the first time the file was recorded in the wild? (Answer Format: YYYY-MM-DD HH:MM:SS UTC)
+2024-10-30 17:17:24 UTC
+Name the text file dropped during the execution of the malicious file.
+akira_readme.txt
+What PowerShell command is observed to be executed?
+Get-WmiObject Win32_Shadowcopy | Remove-WmiObject
+What MITRE ATT&CK ID is associated with the actions of the command?
+T1490
+
