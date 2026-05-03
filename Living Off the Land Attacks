@@ -1,0 +1,18 @@
+Which public site lists Unix/Linux native binaries and how they can be abused?
+GTFOBins
+Which Microsoft toolset includes PsExec and Autoruns, used for admin tasks and often misused by attackers?
+Sysinternals
+
+What MITRE technique ID covers WMI event subscriptions?
+T1546.003
+Which abbreviated name refers to one of the services that C2s, like Cobalt Strike, use to start or listen for remote services?
+SMB
+
+Which PowerShell switch is used to download text/strings and execute them?
+IEX
+Which WMIC keyword triggers the creation of a new process on a remote host?
+create
+
+What is the flag?
+THM{LOL-but-not-that-lol-you-finishit}
+
