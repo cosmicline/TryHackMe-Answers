@@ -1,0 +1,20 @@
+What is the architecture of the binary file windows-update.exe?
+64-bit
+What is the hash (sha-256) of the file windows-update.exe?
+b2a88de3e3bcfae4a4b38fa36e884c586b5cb2c2c283e71fba59efdb9ea64bfc
+Identify the URL within the file to use it as an IOC
+http://tryhatme.com/update/security-update.exe
+With the URL identified, can you spot a domain that can be used as an IOC?
+responses.tryhatme.com
+Input the decoded flag from the suspicious domain
+THM{you_g0t_some_IOCs_friend}
+What library related to socket communication is loaded by the binary?
+WS2_32.dll
+
+Can you identify the malicious URL from the trigger by the process powershell.exe?
+https://tryhatme.com/dev/main.exe
+Can you identify the malicious URL from the alert triggered by chrome.exe?
+https://reallysecureupdate.tryhatme.com/update.exe
+What's the name of the file saved in the alert triggered by chrome.exe?
+test.txt
+
