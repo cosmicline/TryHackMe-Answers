@@ -1,0 +1,39 @@
+What is the process of linking data from multiple sources to identify relationships between individual events called?
+Correlation
+What is the process of collecting and storing log data from multiple systems and sources into a single, unified location for easier analysis called?
+Centralisation
+
+What is the process of converting logs from different formats into a single format for easier analysis in a SIEM?
+Normalisation
+Which log source type can be used to detect the execution of a malicious script?
+Host-Based
+
+Which IP address was the connection established with?
+10.10.114.80
+Which process initiated this suspicious connection?
+SharePoInt.exe
+What is the MD5 hash of the malicious process from the previous question?
+770D14FFA142F09730B415506249E7D1
+What is the name of the scheduled task that was created on the system?
+Office365 Install
+
+What was the timestamp of the remote-ssh account creation?
+2025-08-12 09:52:57
+Which user successfully escalated their privileges to root prior to the action from the first question?
+jack-brown
+From which IP address did the user from the previous question successfully log in to the system?
+10.14.94.82
+How many failed login attempts occurred prior to this successful login?
+4
+Which port is the persistence mechanism configured to connect to?
+7654
+
+Which URI path had the highest number of requests?
+/wp-login.php
+Which IP address was the source of the activity?
+10.10.243.134
+How can this activity be classified?
+Brute Force
+Which tool did the threat actor use?
+WPScan
+
