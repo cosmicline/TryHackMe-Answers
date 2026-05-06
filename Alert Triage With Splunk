@@ -1,0 +1,25 @@
+How many failed login attempts were made on the user john.smith?
+500
+What was the duration of the brute force attack in minutes?
+5
+What username was the attacker able to privilege escalate to?
+root
+What is the name of the user account created by the attacker for persistence?
+system-utm
+
+What is the ProcessId of the process that created this malicious task?
+5816
+What is the name of the parent process for the process that created this malicious task?
+cmd.exe
+Which local group did the attacker enumerate during discovery?
+Administrators
+What is the name of the workstation from which the Threat Actor logged into this host?
+DEV-QA-SERVER
+
+What time did the brute-force activity using Hydra begin?
+2025-09-14 21:20:27
+Which user agent did the attacker use when interacting with the web shell?
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+What was the number of requests made by the attacker to the server via the web shell?
+4
+
