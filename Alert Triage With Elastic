@@ -1,0 +1,32 @@
+How many logs are available for analysis within the entire time range?
+1467
+What is the field value for the client.ip in the weblogs index?
+203.0.113.55
+
+How many POST requests did the IP address 203.0.113.55 make to proxyLogon.ecp?
+3
+Which user.agent paired with the IP address 203.0.113.55 made the POST requests?
+python-requests/2.25.1
+How many logs contain the cmd= query parameter in the url.path field?
+20
+Which command was run utilizing errorEE.aspx on Jul 20, 2025 @ 04:45:50.000?
+hostname
+
+What is the winlog.record_id of the Administrator 4624 logon event?
+17166
+What is the process.pid of the Sysmon 1 event that occurred on Jul 20, 2025 @ 05:11:27.996?
+964
+What is the winlog.event_id for the new user account being created?
+4720
+What is the name of the new user account?
+svc_backup
+
+What command does the attacker use to add the new account to the "Remote Desktop Users" group?
+net localgroup "Remote Desktop Users" svc_backup /add
+What is the winlog.record_id of the 4732 Security event when the attacker adds the user to the Administrator group?
+17254
+What PowerShell command did the attacker run on Jul 20, 2025 @ 05:16:14.628?
+net group "Domain Admins" /domain
+What is the name of the archive that the attacker creates using the Rar.exe executable?
+finance_it_archive.rar
+
