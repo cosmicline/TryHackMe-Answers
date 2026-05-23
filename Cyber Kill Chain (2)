@@ -1,0 +1,42 @@
+How many phases comprise the Cyber Kill Chain?
+7
+
+What is the term for using search engines to reveal sensitive information and confidential files?
+Google Dorking
+What type of reconnaissance is it where the attacker checks the social media pages?
+passive reconnaissance
+
+What technique is mentioned to evade detection by making it challenging to analyse the malicious code?
+Obfuscation
+What built-in feature makes creating a malicious MS Office document possible?
+Macro
+
+What method involves showing advertisements on legitimate websites to redirect users to malicious pages?
+Malvertising
+What phishing attack sends text messages with malicious links or instructions to download malware?
+Smishing
+
+What type of exploit is used before the vendor becomes aware of a vulnerability?
+Zero-day exploit
+What technology is mentioned to prevent an attacker from gaining access even with valid login credentials?
+MFA
+
+What tactic allows attackers to execute operating system commands on a target via a web browser interface?
+web shell
+What technique is mentioned to prevent the execution of unauthorised or malicious software by only allowing approved applications to run?
+allowlisting
+
+What is the name of the tactic where data is hidden within DNS queries?
+DNS tunnelling
+What protocol would the attacker use to smuggle his data as encrypted web traffic?
+HTTPS
+
+What is the term for stealing sensitive files from a target network?
+Data Exfiltration
+What principle limits who can access sensitive systems and data to minimise damage caused by an attacker?
+principle of least privilege
+What type of attack involves encrypting files and demanding payment in exchange for the decryption key?
+Ransomware
+
+What is the flag after you complete the static site?
+THM{CKC_NJHERDX327}
