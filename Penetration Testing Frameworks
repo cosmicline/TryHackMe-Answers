@@ -1,0 +1,45 @@
+A penetration tester runs several tools against a target but skips network mapping entirely and does not document the scope beforehand. Which benefit of using a framework would have most directly prevented this situation?
+Thoroughness
+Your client operates in the healthcare sector and must demonstrate compliance with HIPAA. Beyond identifying vulnerabilities, which benefit of using a recognized framework would matter most to this client?
+Compliance
+
+What OSSTMM metric quantifies the balance between an organization's attack surface and its controls?
+Risk Assessment Values
+During an OSSTMM assessment, you complete Induction and Interaction, identifying 6 hosts running unpatched services. Which phase do you enter next, and what is the primary objective?
+Inquiry
+
+The WSTG organizes its test cases using a specific identifier format. What identifier would you look for to find test cases related to input validation?
+WSTG-INPV
+A development team has just finished coding a new feature and wants to check it against WSTG before deployment. Which SDLC-aligned phase number are they in?
+3
+
+During the Execution phase, your vulnerability scanner flags 15 potential issues on a web application. Before attempting exploitation, which NIST SP 800-115 technique category should you apply to these findings?
+Target vulnerability validation
+
+Which PTES phase number specifically addresses defining the scope, rules of engagement, and legal authorization for a penetration test?
+1
+
+ISSAF's nine-step assessment model begins with information gathering. What is the ninth and final step?
+Covering tracks
+
+In the ATT&CK matrix, what do the columns represent?
+tactics
+In the ATT&CK matrix, what do the rows within each column represent?
+techniques
+You compromised a web server by exploiting an unpatched vulnerability in its public-facing application. What ATT&CK technique ID would you use to classify this finding?
+T1190
+
+Your client is a European online retailer that processes credit card payments through their website. Which framework from this task would most directly govern the penetration testing requirements for this engagement?
+PCI DSS Penetration Testing Guidelines
+A client asks you to assess the security of their iOS banking application, including how it stores credentials locally and communicates with backend APIs. Which framework from this task is the most appropriate testing reference?
+OWASP Mobile Application Security Testing Guide
+Your team is evaluating a client's AWS infrastructure to determine whether their cloud configurations meet industry security standards. They are not asking for a penetration test but rather a controls assessment. Which framework is most relevant?
+CSA Cloud Control Matrix
+
+A U.S. federal agency needs a security assessment of its internal network. The results must align with federal guidelines, and the assessment should include both document reviews and active penetration testing. Which framework is the most natural primary choice?
+NIST SP 800-115
+Your client is an e-commerce company with a web storefront, a mobile shopping app, and a payment processing system. Which combination of frameworks would you recommend to cover all three components? (comma-separrated)
+WSTG,MASTG,PCI DSS
+
+Which framework is used in the UK financial sector?
+CBEST
