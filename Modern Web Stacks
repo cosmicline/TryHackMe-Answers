@@ -1,0 +1,24 @@
+What HTTP response header confirms an Express.js backend is running? (Answer Format: Header-Name: Value)
+X-Powered-By: Express
+What is the name of the Express session cookie you will use to replay requests after polluting the prototype? (Answer Format: cookie-name)
+connect.sid
+Send the prototype pollution payload to the merge endpoint. What is the flag returned by the admin route after the bypass succeeds?
+THM{pr0t0_p0llut3d}
+
+What HTML artifact in the page source confirms a Next.js App Router application?
+window.__next_f
+Send the CVE-2025-29927 bypass header to the protected /dashboard route. What flag is displayed on the page? (Answer Format: THM{...})
+THM{m1ddl3w4r3_byp4ss3d}
+
+What hidden form field in Django POST forms is a near-certain stack fingerprint? 
+csrfmiddlewaretoken
+Using manual curl payloads, what is the name of the vulnerable database?
+vuln_db
+
+What exact Server header value identifies this target as vulnerable to CVE-2021-41773? (Answer Format: Apache/X.X.XX (OS)
+Apache/2.4.49 (Unix)
+What curl flag is required to prevent curl from normalising the traversal sequences in the URL before sending?
+--path-as-is
+What are the contents of the flag.txt file?
+THM{4p4ch3_p4th_tr4v3rs4l}
+
