@@ -1,0 +1,29 @@
+What is the directory in robots.txt that isn't allowed to be viewed by web crawlers?
+/staff-portal
+What is the path of the secret area found in sitemap.xml?
+/s3cr3t-area
+
+What is the flag value from the X-FLAG header?
+THM{HEADER_FLAG}
+What is the flag from the framework's administration portal?
+THM{CHANGE_DEFAULT_CREDENTIALS}
+
+What Google dork operator limits results to a specific site?
+site:
+What online tool and browser extension identifies what technologies a website is running?
+Wappalyzer
+
+What is the website address for the Wayback Machine?
+https://web.archive.org/
+What URL format do Amazon S3 buckets end in? (Answer starts with a .)
+.s3.amazonaws.com
+
+What is the name of the directory beginning with /mo that was discovered?
+/monthly
+What is the name of the log file that was discovered?
+/development.log
+
+Apart from dns and -w, which shorthand flag is required for dns mode?
+-d
+How many virtual hosts on acmeitsupport.thm respond with status code 200?
+3
