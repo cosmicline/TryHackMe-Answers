@@ -1,0 +1,30 @@
+What is the URL parameter in the URL http://google.com/text=?
+text
+Which is the most renowned scripting language for adding interactivity to the DOM?
+JavaScript
+
+Which document property could contain the user's session token?
+document.cookie
+Which JavaScript method is often used as a Proof of Concept?
+alert
+
+What is the text shown in the alert pop-up after a successful XSS attack?
+Hack
+What is the response, if you use the payload <script>alert('Test123')</script>?
+Test123
+
+What is the alert pop-up after executing the payload mentioned in the task?
+You are Hacked
+
+What is the alert pop-up after executing the XSS payload?
+Hacked you again
+Does DOM XSS also occur on the server side? (yea/nay)
+nay
+
+What type of XSS is very similar to Blind XSS?
+Stored XSS
+Extract the user's cookies using netcat and the payload. What is the Connection: value returned in the Netcat output?
+keep-alive
+
+What is the flag you received from level six?
+THM{XSS_MASTER}
