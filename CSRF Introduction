@@ -1,0 +1,23 @@
+What relationship between the browser and the web application does a CSRF attack abuse?
+Trust
+What does the browser automatically include with requests after login?
+Cookies
+
+What type of action is usually required for a CSRF attack to succeed?
+State-changing
+
+What HTTP request method do many developers incorrectly believe prevents CSRF?
+POST
+What mechanism is commonly used to protect applications from CSRF attacks?
+CSRF tokens
+
+What is the flag value after updating the email to attacker@evilmail.thm?
+THM{Got_The_Evil_Email001}
+What is the flag value after updating the email to special@evilmail.thm?
+THM{My_Special_Email007}
+
+What is the flag value after demoting the user from admin to staff? Visit the dashboard page to get the flag.
+THM{Weak_CSRF_Role_001}
+In the above example, what is the name of the encoding scheme used by the developer for encoding CSRF tokens?
+base64
+
