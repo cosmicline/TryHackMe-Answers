@@ -1,0 +1,28 @@
+What is the primary channel used during a smishing attack?
+sms
+You are a CEO and have just received a phishing email sent only to you. What type of phishing is this?
+Whaling
+
+Which principle is being used?
+Urgency
+Which principle is being used?
+Authority
+You receive a message promising exclusive access to a new product no one else knows about if you click on a link. Which principle is being used?
+Curiosity
+You receive an email claiming that your account credentials were found in a recent data breach. Which principle is being used?
+Fear
+
+Which technique relies on users making a typo?
+Typosquatting
+Which three security measures help organisations defend against email spoofing?
+DKIM, DMARC, SPF
+
+Your campaign shows a credential entry rate of 6%. According to the benchmarks, what risk level does this represent?
+High risk
+Which metric measures the percentage of users who open an attachment?
+Attachment Detonation Rate
+A client has a click rate of 10%. Which single recommendation from the table would you give them?
+Focused security awareness training
+
+What is the password flag?
+THM{you_just_got_phished!}
