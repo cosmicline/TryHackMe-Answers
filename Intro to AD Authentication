@@ -1,0 +1,34 @@
+What is the process called that proves your identity?
+Authentication
+What is the process called that determines what you are allowed to access?
+Authorisation
+
+In NetNTLM, does the client authenticate directly to the domain controller or to the service they want to access?
+Service
+What is the name of the random value that the server sends to the client during NetNTLM authentication?
+Challenge
+What is the value of Flag 1 that you can recover from SHARE1?
+THM{5cbcc61a-3178-4220-88b4-367c1bbb48e7}
+
+What is the name of the ticket issued by the KDC that allows you to request service tickets?
+Ticket Granting Ticket
+What special account's password hash is used to encrypt all TGTs?
+krbtgt
+What environment variable is used to specify the location of a Kerberos credential cache file on Linux?
+KRB5CCNAME
+What is the value of Flag 2 that you can recover from SHARE2 using Kerberos authentication?
+THM{0d3f818a-427a-425c-a451-55e43b83e876}
+
+What is the value of Flag 3 that you can recover from SHARE3 by cracking the hash?
+THM{0eef8df3-c8ea-41ad-acd7-ae0479b2badf}
+What is the value of Flag 4 that you can recover from SHARE4 by performing a Pass-the-Hash attack?
+THM{284c6735-b7c1-4221-b072-abf30a54eeda}
+What is the value of Flag 5 that you can recover from SHARE5 by authenticating using the credentials recovered through the Kerberoast attack?
+THM{5b57e69d-7089-4282-ba04-c72de9bfdb38}
+What is the value of Flag 6 that you can recover from SHARE6 by creating a Golden Ticket?
+THM{eac75729-86ea-4bab-98de-1c5ce3552f67}
+
+Which Event ID is logged when a Kerberos TGT is requested?
+4768
+In a Pass-the-Hash attack detected via Event ID 4624, what value appears in the Authentication Package field?
+NTLM
