@@ -1,0 +1,31 @@
+What is the first phase of any AD attack chain?
+Breaching
+What service, running on TCP port 88, can be abused to validate whether usernames exist in the domain?
+Kerberos
+
+How many valid usernames did Kerbrute discover?
+42
+What is the organisation's username format?
+first.last
+
+What is the password for the svc.jenkins account found in the Git commit history?
+Jen5k1ns2025!
+What default password was leaked in the Jenkins build logs?
+MegaCorp01!
+
+How many accounts were cracked using the brute force attack?
+2
+Which is the first user account (alphabetically) that uses the default onboarding password?
+ alice.moore
+
+What is the Bind DN of the service account captured during the LDAP passback attack?
+CN=svc.ldap,OU=Service Accounts,DC=thm,DC=loc
+What is the plaintext password captured from the LDAP passback?
+Pr1ntBind2025!
+What is the cracked password for sarah.jones obtained through file-based coercion?
+Trustno1
+
+What Group Policy setting can be configured to enforce NTLMv2 and refuse older LM and NTLM responses?
+Network Security: LAN Manager authentication level
+What port should be used instead of port 389 to ensure LDAP traffic is encrypted?
+636
