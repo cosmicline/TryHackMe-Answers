@@ -1,0 +1,31 @@
+What is the process that occurs when a device connects to a wireless network?
+Association Process
+What occurs when multiple devices communicate on the same frequency, affecting the wireless signal and coverage?
+Interference
+
+An attacker sets up a wireless access point with the same SSID as a nearby coffee shop's network. Unsuspecting customers connect to it instead of the legitimate network. What type of attack is this?
+Evil Twin
+A network administrator wants to allow guest devices to connect to Wi-Fi without sharing the main password. Which Wi-Fi feature allows connection by entering an 8-digit PIN instead?
+WPS
+Between WPA2 and WPA3, which protocol is resistant to offline dictionary attacks?
+WPA3
+
+A user is connecting a new pair of wireless headphones to their smartphone and is asked to confirm a six-digit code displayed on both devices. What is this step called?
+Pairing
+What frequency band does Bluetooth operate on?
+2.4 GHz
+An attacker within Bluetooth range gains access to a victim's phone and downloads their contacts and messages without authorisation. What type of attack is this?
+Bluesnarfing
+
+An attacker reads the data stored on an employee's access badge and writes it to a blank card. What is this technique called?
+Cloning
+An employee reports their access badge as lost. To prevent unauthorised building access, what should be done to the card's access rights?
+Deactivated
+
+A homeowner installs smart lights and motion sensors that communicate with a central hub using a low-power mesh network. Which wireless technology from this task best fits this scenario?
+Zigbee
+Between S0 and S2, which Z-Wave security framework is vulnerable to key interception due to its use of an all-zero encryption key?
+S0
+
+Obtain the flag by completing the activity that is attached to this task. What is the flag?
+THM{w1r3l3ss_thr34ts_1d3nt1f13d}
