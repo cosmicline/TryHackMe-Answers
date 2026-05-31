@@ -1,0 +1,33 @@
+What value does the Server header return for the Python HTTP Server running on port 8000? (Answer Format: SimpleHTTP/X.X Python/X.X.X)
+SimpleHTTP/0.6 Python/3.12.3
+Which HTTP header reveals the application framework running on port 3000?
+X-Powered-By
+What web server software is running on port 8080?
+nginx
+
+What database password is stored in the .env file served by the Python HTTP Server?
+S3cur3DBPass!
+What is the flag found inside the backup archive served by the Python HTTP Server?
+THM{py_server_exposed}
+
+What Apache module exposes real-time server statistics at /server-status?
+mod_status
+What is the flag found in the /files/ directory on Apache?
+THM{apache_dir_listing}
+
+What value does the NODE_ENV variable have in the debug endpoint response?
+development
+What is the flag found in the static files served by the Node.js application?
+THM{node_debug_exposed}
+
+What Nginx directive enables directory listing in a location block?
+autoindex on
+What URL path exposes Nginx connection statistics?
+/nginx_status
+What is the flag found in the directory listing on port 8080?
+THM{nginx_autoindex}
+
+Which security header, when missing, allows a page to be embedded in an iframe on another domain?
+X-Frame-Options
+What finding text does Nikto report when it detects directory indexing on the /files/ path?
+Directory indexing found
