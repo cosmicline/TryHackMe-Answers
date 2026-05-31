@@ -1,0 +1,4 @@
+What is the flag value after logging in as a normal user?
+THM{LOGGED_IN_USER}
+What is the flag value after logging in as admin?
+THM{LOGGED_IN_ADM1N1}
