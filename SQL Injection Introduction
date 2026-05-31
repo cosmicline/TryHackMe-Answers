@@ -1,0 +1,38 @@
+What SQL statement combines results from two SELECT queries into one result set?
+UNION
+What built-in database contains metadata about all other databases, tables, and columns in MySQL?
+information_schema
+
+What character is commonly used as a first test when probing for SQL Injection?
+'
+What type of SQL Injection returns results directly in the web page?
+In-Band
+
+What subtype of In-Band SQLi relies on database error messages to extract information?
+Error-Based
+What SQL function returns the name of the current database in MySQL?
+database()
+
+What boolean condition is commonly injected to make a WHERE clause always evaluate to true?
+1=1
+
+What MySQL function causes a deliberate time delay in a query's response?
+SLEEP
+
+What protocol beginning with D is commonly used to exfiltrate data in Out-of-Band SQLi?
+DNS
+What MSSQL stored procedure can be used to trigger DNS lookups for data exfiltration?
+xp_dirtree
+
+What is the primary and most effective defence against SQL Injection?
+Prepared Statements
+
+What is the flag after completing Level 1?
+THM{SQL_INJECTION_3840}
+What is the flag after completing Level 2?
+THM{SQL_INJECTION_9581}
+What is the flag after completing Level 3?
+THM{SQL_INJECTION_1093}
+What is the flag after completing Level 4?
+THM{SQL_INJECTION_MASTER}
+
