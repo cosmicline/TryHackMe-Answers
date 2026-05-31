@@ -1,0 +1,29 @@
+What HTTP response header reveals the IIS version?
+Server
+What is the HTTP response code after executing the PUT request on the /webdav directory?
+401
+
+What character in a URL path triggers the IIS tilde enumeration response difference?
+~
+What legacy Windows filename format does the tilde enumeration vulnerability exploit? (Answer Format: X.X)
+8.3
+What password is stored in the file discovered through tilde enumeration?
+P@ssw0rd!123
+
+What HTTP status code confirms a file was successfully created via PUT?
+201
+What curl flag is required to authenticate with NTLM when uploading via WebDAV?
+--ntlm
+
+After triggering the ASPX shell, what user account is returned by the whoami command? (Answer Format: lowercase, e.g., nt authority\system)
+iis apppool\defaultapppool
+What Windows privilege, visible in whoami /priv output from the reverse shell, enables Potato-style privilege escalation from an IIS shell?
+SeImpersonatePrivilege
+
+Navigate to the /uploads/ directory on the target. What sensitive file extension is visible in the directory listing? (Answer Format: include the dot, e.g., .bak)
+.bak
+What ASP.NET diagnostic handler URL path should be disabled in production as it can expose session data, cookies, and request history?
+trace.axd
+
+What nmap NSE script enumerates allowed HTTP methods on a web server?
+http-methods
