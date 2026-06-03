@@ -1,0 +1,33 @@
+What is the name of the code that takes advantage of a flaw on the target system?
+Exploit
+What is the name of the code that runs on the target system after a successful exploit?
+Payload
+What type of payload is self-contained and does not require a second download?
+Singles
+What symbol in a payload's path name indicates it is a staged payload?
+/
+
+How would you search for all exploit modules related to Apache?
+search type:exploit apache
+You found an interesting module in your search results listed as index number 3. What command would you use to view detailed information about it?
+info 3
+What command would you use to go back from a module's context to the main `msf6 >` prompt?
+back
+
+How would you set the LPORT value to 6666?
+set LPORT 6666
+How would you set the global value for RHOSTS to 10.10.19.23?
+setg RHOSTS 10.10.19.23
+What command would you use to clear a set payload?
+unset PAYLOAD
+What command do you use to launch an exploit module?
+exploit
+You want to exploit a target but continue working in msfconsole immediately after the session opens. What flag do you add to the exploit command?
+-z
+
+What command do you use to background a Meterpreter session and return to the msfconsole prompt?
+background
+What flag do you use with the `sessions` command to interact with a specific session by ID?
+-i
+You have three active sessions. You need to terminate session 2 without affecting the others. What full command do you use?
+sessions -k 2
