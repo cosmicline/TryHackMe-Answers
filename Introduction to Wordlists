@@ -1,0 +1,28 @@
+What tool can generate a custom wordlist based on known patterns?
+crunch
+
+After running the CeWL command shown in the task, how many unique email addresses did you scrape?
+4
+How many PDF files were you able to find?
+1
+How many email addresses (or new emails) were you able to extract from the PDF files?
+4
+What is the last username in the users_from_emails.txt file?
+security
+
+How many words are in words_clean.txt after cleaning up the file?
+161
+What is the 10th password in the pass_helios.txt file?
+Helios2009!
+What flag does sort use to remove duplicate lines?
+-u
+What crunch template character represents a digit?
+%
+
+What HTTP status code does ffuf report for helios/?
+200
+What is the username that Hydra discovers?
+alex.johnson
+What is the flag?
+THM{w0rdlists_win_rooms}
+
