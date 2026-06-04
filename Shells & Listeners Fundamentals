@@ -1,0 +1,36 @@
+Which type of shell connects back to a listening port on your computer, Reverse (R) or Bind (B)?
+R
+When using a bind shell, would you execute a listener on the Attacker (A) or the Target (T)?
+T
+A target machine sits behind a strict firewall that blocks all inbound connections but allows outbound traffic. Which shell type would work here, Reverse (R) or Bind (B)?
+R
+
+Which tool can allocate pseudo-terminals (PTYs) for fully interactive shell sessions?
+socat
+Which Metasploit component generates payloads in formats such as executables, scripts, and shellcode?
+msfvenom
+
+Which option tells netcat to listen?
+-l
+How would you connect to a bind shell on the IP address: 10.10.10.11 with port 8090?
+nc 10.10.10.11 8090
+Which netcat flag skips DNS resolution and uses numeric IP addresses only?
+-n
+
+How would we get socat to listen on TCP port 8080?
+TCP-L:8080
+When creating a socat reverse shell on a Windows target, which option must you add after the executable name for proper I/O handling?
+pipes
+
+After running stty raw -echo, what command brings your backgrounded shell back to the foreground?
+fg
+How would you change your terminal size to have 238 columns?
+stty cols 238
+What command would you use to set up a Python3 web server on port 80 to transfer socat to a target? (Provide the full command with sudo)
+sudo python3 -m http.server 80
+
+Which socat parameter disables certificate verification for self-signed certificates?
+verify=0
+What OpenSSL flag generates a 2048-bit RSA key pair when creating a self-signed certificate?
+-newkey rsa:2048
+
