@@ -1,0 +1,35 @@
+What technique allows you to create a reverse or bind shell with netcat when the -e flag is unavailable?
+named pipe
+In the PowerShell reverse shell one-liner, what .NET class is used to create the network connection to the attacker?
+System.Net.Sockets.TCPClient
+What bash pseudo-device path is used to create a TCP connection in the bash reverse shell?
+/dev/tcp
+
+Which msfvenom payload would generate a 64-bit Linux stageless reverse TCP shell?
+linux/x64/shell_reverse_tcp
+What msfvenom flag specifies the number of encoding iterations?
+-i
+What type of msfvenom payload runs entirely in memory and provides built-in post-exploitation commands?
+meterpreter
+
+What Metasploit command loads the multi/handler module?
+use multi/handler
+What flag runs the handler as a background job so you can continue using the Metasploit console?
+-j
+Which command, followed by a session number, lets you interact with a specific active session?
+sessions -i
+
+What PHP function is used in the basic webshell to execute system commands?
+shell_exec
+What HTTP method helps avoid logging commands in web server access logs?
+POST
+What is the name of the well-known PHP reverse shell script included in Kali's webshell collection, written by PentestMonkey?
+php-reverse-shell.php
+
+What msfvenom format flag generates a Linux ELF binary?
+-f elf
+What Metasploit output confirms the staged payload two-phase handshake is working?
+Sending stage
+
+What Meterpreter command displays information about the compromised system, including OS and hostname?
+sysinfo
