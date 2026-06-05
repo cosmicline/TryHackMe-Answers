@@ -1,0 +1,28 @@
+Yay or Nay: a host that passes a vulnerability scan with no findings is guaranteed to have a secure configuration.
+nay
+
+In a DISA STIG, which severity category represents the highest risk?
+CAT I
+
+What commercial vulnerability scanner, developed by Tenable, includes compliance auditing functionality against CIS Benchmarks?
+Nessus
+
+What special permission bit on Linux causes an executable to run with the privileges of the file's owner?
+SUID
+
+In the methodology described above, what is the first phase you should complete before checking for specific misconfigurations?
+situational awareness
+
+On linux-web-01, what is the actual permission value observed on /etc/shadow in the failing check 7.1.5?
+0644
+On linux-web-01, how many world-writable files were detected by check 7.1.11?
+3
+On linux-web-01, what is the full path of the unexpected SUID binary found by check 7.1.13?
+/opt/admin-tools/logviewer
+On win-dc-01, what is the minimum password length currently configured, as reported by check 1.1.4?
+8
+On win-dc-01, what is the current value of the FilterAdministratorToken registry key, as reported by check 2.3.17.1?
+0x0
+How many total checks does linux-db-02 pass?
+8
+
