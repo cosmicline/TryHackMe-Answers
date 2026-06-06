@@ -1,0 +1,29 @@
+What is the hostname of the target host?
+linux-enumeration
+What is the Linux kernel version of the target host?
+6.8.0-1017-aws
+What version of Ubuntu is running on the host?
+Ubuntu 24.04.1 LTS
+What is the full path of the script run by root every 5 minutes?
+/root/backup.sh
+What is the full version of AppArmor?
+4.0.1really4.0.1-0ubuntu0.24.04.3
+
+Print the environment variables. What is the value of LANG?
+C.UTF-8
+What is the flag in your history?
+THM{history-is-not-safe}
+What is the full path of the command you are allowed to run with elevated privileges?
+/usr/bin/nmap
+What is the username of the Mailing List Manager?
+list
+
+What is the name of the network interface, other than loopback?
+ens5
+What port, other than 22, is listening on the host?
+53
+
+What are the contents of the secret file in your home folder?
+THM{not-so-hidden}
+Find a file that has TryHackMe in its name. What is its content?
+THM{found-the-flag}
