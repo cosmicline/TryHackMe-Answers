@@ -1,0 +1,16 @@
+Run Linux Exploit Suggester to enumerate the target host. What CVE is listed as the first Possible Exploit the target is vulnerable to?
+CVE-2025-32463
+
+Exploit the previously identified vulnerability. What is the content of /root/flag.txt?
+THM{splo1ts-r-public}
+
+What is the full path of the script vulnerable to privilege escalation?
+/var/local/syslog-backup.sh
+What is the flag in /root/flag.txt?
+THM{getting-root-with-pspy}
+
+What are the contents of /home/frank/flag.txt?
+THM{Frank_Pwned_Privesc}
+What are the contents of /root/flag.txt?
+THM{Priv_Ch@l_D0ne}
+
