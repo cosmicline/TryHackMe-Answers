@@ -1,0 +1,30 @@
+What technique allows you to authenticate using an NTLM hash without knowing the plaintext password?
+Pass-the-Hash
+What Windows group, other than Administrators, permits WinRM access to a host?
+Remote Management Users
+
+What Event ID in the System log is the primary indicator of PsExec-based lateral movement?
+7045
+What is the flag found in flag3a.txt on WRK?
+THM{ps3x3c_syst3m_sh3ll}
+What is the NT hash found in the loot file on WRK?
+fa0af7f6a73316dd59f0be812dbf3c12
+What is the flag found in flag3b.txt on SERVER1?
+THM{w1nrm_r3m0t3_sh3ll}
+
+What flag is used with NetExec to authenticate against the local SAM database instead of the domain?
+--local-auth
+What is the flag found in flag4.txt on SERVER1?
+THM{p4ss_th3_h4sh_ftw}
+What is the NT hash of the Domain Administrator account found on SERVER1?
+2508e1ce9cfcfe1011a74c34297b05ea
+
+What Nmap flag must you use instead of -sS when scanning through a SOCKS proxy?
+-sT
+What is the flag found in flag5.txt on the Domain Controller?
+THM{d0m41n_c0mpr0m1s3d_v1a_p1v0t}
+
+What built-in Windows feature automatically generates unique local admin passwords for each domain-joined machine?
+Windows LAPS
+What Windows Event ID in the System log indicates a new service has been installed?
+7045
