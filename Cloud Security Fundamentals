@@ -1,0 +1,33 @@
+A company runs its own web stack on a cloud virtual machine but does not manage the physical hardware. Which service model describes this arrangement?
+IaaS
+In the Shared Responsibility Model, who is always responsible for securing the physical datacentre and hardware?
+Provider
+
+In an IAM policy statement, which field states whether access is allowed or denied?
+Effect
+A named, temporary bundle of permissions that an identity can assume is called what?
+Role
+
+A bucket policy that sets "Principal": "*" effectively makes the bucket what? (one word, used throughout this task)
+Public
+From the list of artifacts worth prioritizing in an open bucket, which single type tends to hold the most sensitive data in one file?
+Backups
+
+In a security group rule, which CIDR notation indicates a port is open to the entire Internet?
+0.0.0.0/0
+What two-word term describes moving from one compromised instance to another reachable service inside the same virtual network using the same permissions?
+Lateral movement
+
+What is the link-local IP address AWS and Azure use for the Instance Metadata Service?
+169.254.169.254
+Which IMDS version responds to a plain HTTP GET with no session token, making it vulnerable to classic SSRF?
+1
+
+Run the port scan. Which port is the ImageFetcher web application running on?
+8080
+The public bucket contains a file with hints about the next target. What is the filename?
+dev-notes.txt
+Retrieve the IAM policy. What type of resource is the wildcard present in that provides full access?
+storage:*
+Follow the policy to the flag. What is the flag value?
+THM{sh4r3d_r3sp0ns1b1l1ty_br0k3n}
