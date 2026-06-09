@@ -1,0 +1,35 @@
+What is the generic term for the file inside a mobile application package that declares the application's permissions and component configuration?
+Manifest
+What security model does a mobile operating system use to isolate applications from one another?
+Sandbox
+
+How many phases does a mobile application penetration test have?
+4
+What testing approach gives the tester full access to source code and documentation?
+White-box
+
+What is the name of the open-source automated tool introduced in this task for mobile static analysis?
+Mobsf
+What OWASP Mobile Top 10 category covers hardcoded credentials found in application code?
+Improper Credential Usage
+
+What tool is commonly used to bypass SSL pinning during a mobile application assessment?
+Objection
+What technique involves attaching to a running application to observe or modify its behaviour?
+Runtime Instrumentation
+
+What OWASP Mobile Top 10 category covers sensitive data being stored in plain text on a device?
+Insecure Data Storage
+What binary protection check specifically looks at whether an application detects that it is running on a modified device?
+Root and jailbreak detection
+
+What is the hardcoded API key found in the Java source?
+AIzaSyHX3mR9vKcT8nP2wY5dL0qJ7eZbFgVuN4o
+What database password was hardcoded in DatabaseHelper.java?
+Helix@2024!DBroot
+What is the name of the exported Activity that is not protected?
+MainActivity
+What Info.plist key was set to true, disabling App Transport Security?
+NSAllowsArbitraryLoads
+What sensitive value was found in the bundled internal_config.plist file?
+HelixiOS_Secret_9mK2P!wX
