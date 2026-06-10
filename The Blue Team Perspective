@@ -1,0 +1,36 @@
+Target's security tools detected the breach in 2013, but the alert was never escalated. What SOC challenge does this failure best illustrate?
+Alert fatigue
+What metric measures the average time between an attacker's initial compromise and the organization's detection of the breach?
+MTTD
+
+What Splunk field classifies the format of ingested data and controls how Splunk parses events?
+sourcetype
+Log in to the Splunk VM and access the Search tab. Run: index=botsv1 | stats count by sourcetype. How many distinct sourcetypes appear in the results?
+22
+The BOTSv1 dataset returns zero results when searched with the default Last 24 hours time range. When was the dataset generated? (Answer Format: Month YYYY)
+August 2016
+
+Run the IPS detection query above. What is the source IP with the highest count of IPS-triggered attack signatures? (Answer Format: X.X.X.X)
+40.80.148.42
+Using the web enumeration query above, what is the IP address generating more than 100 HTTP 404 responses? (Answer Format: X.X.X.X)
+40.80.148.42
+
+In the NIST SP 800-61 Rev 2 lifecycle, which phase occurs before any incident is detected and focuses on building capability through policies, tools, and training?
+Preparation
+The SolarWinds SUNBURST backdoor remained undetected for approximately 9 months. Which phase of the NIST SP 800-61 Rev 2 IR lifecycle failed during this time?
+Detection and Analysis
+
+In the MITRE ATT&CK framework, tactics represent the adversary's goal (the "why"), and techniques represent the method (the "what"). What is the third level of specificity below techniques?
+Sub-techniques
+On the Pyramid of Pain, which layer represents the indicator type that causes the most operational difficulty for an attacker when defenders detect and block it?
+TTPs
+In the BOTSv1 dataset, you queried Event ID 4688 (new process creation) and observed cmd.exe and powershell.exe being spawned by unusual parent processes. Which ATT&CK technique covers adversaries executing commands through scripting interpreters like cmd.exe and PowerShell? (Answer Format: TXXXX)
+T1059
+
+Run the Suricata external-attacker query above. What is the primary external attacker IP address? (Answer Format: X.X.X.X)
+40.80.148.42
+Using the attacker IP you identified, search the IIS web access logs for the URI path that received the most POST requests. What is the URI? (Answer Format: /path/to/resource)
+/joomla/index.php/component/search/
+
+Follow through the attached static site to test your knowledge. What is the flag you get after going through all the steps?
+THM{Blue-T34M-Perspective}
