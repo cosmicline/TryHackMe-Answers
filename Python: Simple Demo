@@ -1,0 +1,14 @@
+What is the name of the function we used to display text on the screen?
+print()
+What is the name of the function that we used to convert user input to an integer?
+int()
+
+How does Python write “else if”?
+elif
+What will the program display if the user’s input is 50?
+That number is out of range. Try again.
+
+What type of loop does this program use?
+while
+What will the program display if the user makes the correct guess in 3 tries?
+You got it in 3 tries!
