@@ -1,0 +1,35 @@
+What built-in function reveals the data type of a value?
+type()
+If a user types 3.14 at an input() prompt, what data type does Python store it as before any conversion?
+str
+On the attached VM, open and run fstrings_demo.py. What is the last line printed to the terminal?
+Scan complete: 192.168.1.1 has 3 open ports
+
+What function returns the number of characters in a string?
+len()
+Given word = "TryHackMe", what does word[3:7] return?
+Hack
+What string method converts "ADMIN" to "admin"?
+.lower()
+
+What method adds an element to the end of a list?
+.append()
+Given services = {22: "SSH", 80: "HTTP"}, what does services[80] return?
+HTTP
+What dictionary method lets you retrieve a value with a safe fallback if the key does not exist?
+.get()
+
+What operator returns the remainder of a division?
+%
+What does 10 // 3 evaluate to?
+3
+What does 2 ** 10 evaluate to?
+1024
+
+What type of loop is best suited for iterating over each item in a list?
+for
+What does range(3) produce?
+0, 1, 2
+What keyword immediately exits a loop?
+break
+
