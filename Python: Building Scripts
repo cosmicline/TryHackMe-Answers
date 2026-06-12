@@ -1,0 +1,34 @@
+What keyword sends a value back from a function to the caller?
+return
+If a function is defined as def scan(target, port=80):, what value does port take if you call scan("192.168.1.1") without specifying a port?
+80
+On the VM, run functions_demo.py. What score does score_password return for the password "TryHackMe2025!"?
+5
+
+What type of exception is raised when you attempt int("hello")?
+ValueError
+What type of exception is raised when you try to open a file that does not exist?
+FileNotFoundError
+On the VM, open a Python terminal and type print(10 / 0). What is the name of the exception that Python raises?
+ZeroDivisionError
+
+What keyword introduces a context manager for safely opening files?
+with
+What string method removes the trailing newline character from each line read from a file?
+.strip()
+On the VM, run files_demo.py. How many passwords did it load from common_passwords.txt?
+58
+
+What is the name of Python's package manager used to install third-party libraries?
+pip
+Which module from the standard library provides constants like ascii_uppercase, digits, and punctuation?
+string
+On the VM, run imports_demo.py. What is the first character of the SHA-256 hash it prints for the default input string?
+5
+
+In the check_password function, what score does the password receive if it is found in the common_passwords list?
+0
+On the VM, run password_checker.py and enter the password TryHackMe!2025. What strength label does the program display?
+Strong
+After running the checker with the password TryHackMe!2025, open password_log.txt on the VM. How many asterisks appear on that line?
+14
