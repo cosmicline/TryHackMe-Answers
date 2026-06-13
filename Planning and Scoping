@@ -1,0 +1,45 @@
+What is the keyword that separates a penetration test from a criminal cyber attack?
+authorization
+
+According to PTES, how many phases does a penetration test have?
+7
+Which type of security assessment relies primarily on automated scanning tools and produces a categorized list of known weaknesses?
+vulnerability assessment
+In the PTES lifecycle, which phase focuses on defining scope, rules, and legal agreements before any testing begins?
+Pre-engagement Interactions
+
+A penetration tester is given only the company name and a target IP range, with no additional documentation. What testing approach is this?
+unknown environment
+An organization wants to determine whether an attacker who has already breached the perimeter could reach their database servers. Should they request an internal or external penetration test?
+internal
+
+What is the term for the list of systems and assets that the penetration tester is authorized to test?
+allowlist
+BrightCart's penetration test covered only the customer portal but excluded the payment processing API and cloud infrastructure. Is this an example of an overly broad or an overly narrow scope?
+overly narrow
+
+What is the abbreviation of the legal document that protects confidential information shared between the client and the penetration testing team?
+NDA
+A penetration tester is conducting a cloud security assessment on a client's AWS environment. The client asks the tester to perform a DoS test against their EC2 instances to see how they handle the load. Should the tester proceed? (Yea/Nay)
+Nay
+
+In the context of Rules of Engagement, what is the term for the defined process of reporting critical incidents or findings to the client during an engagement?
+escalation procedures
+During BrightCart's penetration test, the testing team discovered that an unauthenticated API endpoint is actively exposing customer credit card numbers. According to the escalation tiers described in this task, what tier does this fall under?
+critical
+The RoE states that engagement evidence should be encrypted at rest. What is the encryption standard mentioned in this task?
+AES-256
+
+Which PCI DSS requirement specifically addresses penetration testing?
+Requirement 11.4
+Under GDPR, what role does a penetration tester assume if they access personal data belonging to EU individuals during an engagement?
+data processor
+
+Based on Sarah's email, BrightCart is willing to share network diagrams, architecture documentation, and test accounts at various privilege levels. What testing approach does this describe?
+known environment
+BrightCart's legal team requires a specific document to be signed before any technical documentation is shared with the penetration testing team. What document is this?
+NDA
+The board wants to know whether an attacker could reach the payment database from the corporate network. This requires the penetration tester to begin from within BrightCart's network. What type of penetration test addresses this question?
+internal penetration test
+Go through the attached static site. What is the flag?
+THM{PL4nning_scopiNG}
