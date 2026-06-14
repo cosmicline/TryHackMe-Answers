@@ -1,0 +1,27 @@
+A client rebuilt their entire e-commerce platform after remediation. Should they request a re-test or a full reassessment? (Answer Format: two words)
+Full reassessment
+What document governs whether re-testing is included in the original engagement, and should be reviewed before the original assessment ends? (Answer Format: abbreviation)
+SOW
+
+What is the term for the period between report delivery and the re-test, during which the client implements fixes? (Answer Format: two words)
+Remediation window
+A client signs a formal document stating they will not fix a medium-severity finding due to business constraints. What is this outcome recorded as in the re-test report? (Answer Format: two words)
+Risk Accepted
+
+The original SQLi payload ' OR '1'='1 is now blocked, returning a generic error. A variant payload ' OR 1=1-- still returns all user records. What is the re-test outcome for this finding? (Answer Format: one word)
+Fail
+
+CVE-2023-43208 arose directly from an incomplete patch for which earlier CVE? (Answer Format: CVE-YYYY-NNNNN)
+CVE-2023-37679
+Vendor patches themselves are sometimes incomplete, which pitfall would this failure lie in?
+Incomplete Vendor Patches
+
+Submit the original SQLi payload (' OR '1'='1) against the login form. What HTTP response code does the application return? (Answer Format: three-digit number)
+200
+Submit the variant payload ' OR 1=1-- in the username field. What URL path does the application redirect to on success? (Answer Format: /path) 
+/dashboard
+Based on your testing, what is the overall re-test result for Finding F-01? (Answer Format: one word)
+Fail
+
+In the re-test report findings status table, which column captures the specific fix the developer applied for example, "Blocklist added for specific payload"? (Answer Format: column name)
+Notes
