@@ -1,0 +1,34 @@
+What is the full path of the program that john can run with sudo?
+/usr/bin/nano
+What are the contents of /root/flag.txt?
+THM{SUDO-pwned-priv-esc}
+
+What is the full path of the binary in /usr/bin/ that is vulnerable to a SUID exploitation?
+/usr/bin/vim.basic
+What are the contents of the flag found in /root/?
+THM{root-by-SUID-vulns}
+
+Find a custom SUID binary on the target host, using the techniques you learned before. What is the full path of this binary?
+/opt/path/mywhoami
+Run the strings command on the SUID binary. What binary does it call from path?
+whoami
+Exploit this behavior as you've seen in the example scenario, to hijack the PATH and gain root privileges. What are the contents of /root/flag.txt?
+THM{PATH-and-SUID-leadtoroot}
+
+How many binaries have set capabilities?
+6
+What is the full path of the binary that can be used to gain root through its capabilities?
+/usr/bin/python3.12
+What are the contents of /root/flag.txt?
+THM{caps_getting_r00T}
+
+What is the full path of the cron job that can be exploited?
+/etc/cron.d/cleanup
+What are the contents of /root/flag.txt?
+THM{g0t-r00t-from-cr0n}
+
+What is the full path of the mountable share?
+/opt/nfs
+What are the contents of /root/flag.txt?
+THM{exports-r00T-nfs}
+
