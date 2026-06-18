@@ -1,0 +1,10 @@
+What password grants you SSH access to the web server?
+dropsofjupiter
+What credentials does the company's internal mobile application contain? (Format: username:password)
+j.harris:DropsOfJupiter2026!
+What Active Directory permission does your domain account hold that can be abused for privilege escalation?
+AddMember
+What is the name of the group you target to escalate to Domain Admin?
+ITSupport-Admins
+What is the flag on the Domain Controller?
+THM{d34d_dr0p_d0m41n_pwn3d}
