@@ -1,0 +1,4 @@
+What is the flag value after logging in as admin?
+THM{ADMIN_ACCESS_USING_BURP} 
+What is the value of /var/www/user.txt?
+THM{SYSTEM_PWNED_SUCCESSFULLY}
