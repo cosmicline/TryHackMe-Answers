@@ -1,0 +1,16 @@
+Which OS space has unrestricted access to your computer's hardware?
+Kernel Space
+Which OS responsibility manages user accounts, authentication, and permissions?
+User Management
+What version of Ubuntu Mate is your computer running?
+1.26.2
+How much memory is allocated to your machine?
+1.9 GiB
+
+What Type is listed for the /dev/root device?
+ext4
+After opening the Home directory on the Desktop, how many user directories exist?
+3
+Navigate to Alex's home directory and explore the Documents folder.
+What is the flag value contained in note.txt?
+THM{new_pc_for_free!}
