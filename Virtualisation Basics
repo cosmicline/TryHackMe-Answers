@@ -1,0 +1,18 @@
+What does virtualization enable multiple applications to share?
+physical server
+What is the name of the software that manages the resources for each lab machine?
+hypervisor
+
+Suppose a user wants to deploy a study lab on their machine to practice some exercises for a cyber security certification. Which type of hypervisor will they use?
+type 2
+Suppose a company wants to host multiple small applications in the same lab machine. What should they use?
+containers
+
+What is the name of the lab machine that has been running for the longest time?
+Monitoring-SYS
+What is the name of the lab machine that is using the biggest amount of memory?
+DB-Cluster-01
+How many VMs are in the running state after you solved the issue on `Mail-SERVER`?
+8
+What is the name of the physical machine that is hosting most of the VMs?
+HV-PROD-02
