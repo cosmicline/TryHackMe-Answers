@@ -1,0 +1,17 @@
+What is the Device name specified?
+TryHatMe
+How much RAM is installed on your new work PC?
+4.00 GB
+Which Version of Windows Server 2019 Datacenter is installed?
+1809
+What is the flag value found within Welcome.txt?
+THM{welcome_to_tryhatme!}
+
+What is the flag value you receive after installing and running the application?
+THM{your_first_day!}
+Which country or region is your computer currently set to?
+United States
+Which account is currently logged in?
+Administrator
+What is the file name shown in the Affected items section?
+tryhatmemaldoc.txt
