@@ -1,0 +1,16 @@
+What does "CLI" stand for?
+command-line interface
+
+What is the full path of the mission_brief.txt file found on the system using the find command?
+/home/ubuntu/Documents/.research/archive/mission_brief.txt
+What is the flag hidden inside the mission_brief.txt file?
+MISSION-FOUND
+
+What is the username returned by the whoami command?
+ubuntu
+What is the kernel version shown by uname -a?
+6.14.0-1018-aws
+How much free disk space does df -h report?
+58G
+What is the message written inside day1_report.txt?
+END-OF-DAY1
