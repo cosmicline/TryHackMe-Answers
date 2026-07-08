@@ -1,0 +1,21 @@
+What word is used to declare a variable?
+let
+What word is used to declare a constant?
+const
+What is the method that we call to display text on the screen?
+console.log()
+
+What method is used to convert user input into a number?
+parseInt()
+
+The secret is 10. What will our program display on the screen if the user makes a guess of 15?
+Too high, try again.
+The secret is 10. What will our program display on the screen if the user makes a guess of 35?
+That number is out of range. Try again.
+
+What is the name of the loop that we used in this task?
+while
+What is the name of the variable that is incremented by one when the user makes a new wrong guess?
+tries
+How is “not equal” written in JavaScript?
+!==
