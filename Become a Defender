@@ -1,0 +1,11 @@
+What is the goal when a defender puts security controls in place to stop threats before any damage occurs?
+Prevention
+What process involves reviewing logs and evidence to understand how an incident happened and what was impacted?
+Analysis
+What flag did you receive after successfully mapping your city infrastructure?
+THM{mapping_infrastructure!}
+
+Which defender principle focuses on identifying the most critical systems to guide security efforts and focus?
+Risk Prioritization
+What flag did you receive after successfully defending your city's infrastructure?
+THM{defensive_techniques!}
