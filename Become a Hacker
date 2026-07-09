@@ -1,0 +1,11 @@
+Using the manual or automated methods described above, what hidden web page did you discover?
+/login
+Based on your Gobuster scan results, what status code is returned when accessing the hidden page?
+200
+
+Using either manual testing or an automated dictionary attack, what password did you discover for the admin user?
+qwerty
+After logging in using the password found, what secret message is displayed on the page?
+THM{born_to_hack!}
+How many failed password attempts were made before the correct password was found?
+17
