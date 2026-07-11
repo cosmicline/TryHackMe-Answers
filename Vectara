@@ -1,0 +1,28 @@
+Find the message. Find the flag.
+THM{0racl3_9_1s_c0ming}
+
+What is the name of the directive injected into the source template?
+OVERRIDE_9
+What is the flag?
+THM{p01s0n3d_fr0m_th3_s0urc3}
+
+What is the registry entry ID of the model under review?
+XR-7-491
+What is the flag?
+THM{gh0st_1n_th3_r3g1stry}
+
+What is the classified cargo code hidden in HaulMind's records?
+THM{m4n1f3st_unl0ck3d}
+
+Which cargo hold has a falsified manifest? Cross-reference Lodestar's data against the fragments in your loading record. One hold's weight and destination don't match.
+D
+The forged manifest was filed by a different organisation than the legitimate ones. What is the full name of the fake filing source?
+TryHaulMe Central Logistics Bureau
+What is the flag hidden in the forged manifest?
+THM{GH0ST_FR31GHT}
+
+What is the flag?
+THM{b84bc0f023bc0bc0fdbb85eae75b26c4}
+
+What is the flag?
+THM{med1c4l_xss_ag3nt_w0rm}
