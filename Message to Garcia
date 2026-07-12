@@ -1,0 +1,13 @@
+What was the name of the Lieutenant who delivered the message to Garcia?
+Rowan
+
+What type of encryption is the service using?
+symmetric
+What implementation of authenticated encryption is the service using?
+Fernet
+What is the encryption key?
+TUVTU0FHRVRPR0FSQ0lBMjAyNF9LRVkhISEhISEhISE=
+What is the message that needs to be delivered?
+Garcia, it seems I've cracked the code!! I need you to meet me at coordinates: 40.4168° N, 3.7038° W. The cipher
+What's the flag?
+THM{ssrf_2_rce_v1a_message_2_garc1a}
