@@ -1,0 +1,11 @@
+What is the main goal of defensive security?
+Detect and respond to attacks
+
+Which source IP address is generating the suspicious traffic?
+32.122.195.63
+
+Copy the latest URL that the attacker has tried to find and paste it below.
+https://fakebank.com/admin
+
+When the success message appears, copy the flag and paste it below.
+THM{FAKEBANK-SECURED}
