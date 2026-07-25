@@ -1,0 +1,16 @@
+What external domain was contacted during script execution?
+api-edgecloud.xyz
+What encryption algorithm was used by the script?
+RC4
+What key was used to decrypt the second-stage payload?
+X9vT3pL2QwE8xR6ZkYhC4s
+What was the timestamp of the server response containing the payload?
+Fri, 10 Apr 2026 05:28:23 GMT
+What is the SHA-256 hash of the extracted and decrypted payload?
+e3d39d42df63c6874780737244370ba517820f598fd2443e47ff6580f10c17cb
+What remote URL did the client use to communicate with the victim machine?
+http://34.174.57.99
+Which encryption key and algorithm does the client use?
+M4squ3r4d3Th3P4ck3tSt34lthM0d31337, AES
+After determining the client's encryption, decrypt the commands the attacker executed on the victim and submit the flag.
+THM{m45k3d_tr4ff1c_0v3r_c0v3rt_ch4nn3lz}
