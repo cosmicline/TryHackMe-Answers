@@ -1,0 +1,6 @@
+What API key is used to retrieve files from the secure storage service? 
+THM{Hello_Im_just_an_API_key}
+What is the flag in the admin section of the website? 
+thm{c4n_i_haz_flagz_plz?}
+What flag is stored in a text file in the server's web directory? 
+THM{SSRF2RCE_2_1337_4_M3}
