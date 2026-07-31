@@ -1,0 +1,22 @@
+What is the user flag?
+THM{9e04a7419a2b7a86163496271a8a95dd}
+What is the root flag?
+THM{c6f684e3b1089cd75f205f93de9fe93d}
+What are the usernames and passwords that had access to the server? List the usernames in alphabetical order with their corresponding password separated by a comma. Format is username:password.
+james:Pwd@9tLNrC3!,root:RdzQ7MSKt)fNaz3!,rose:vRMkaVgdfxhW!8
+Two users have their full names on display. What are their names? In Alphabetical order. Format is first name last name separated by a comma.
+James Bold, Rose Bud
+
+What is the user flag?
+THM{3e5a19a9ba91881f4d7852d92126a97f}
+What are the usernames found on the server? 
+j.bold,j.smith,r.bud
+What is the root flag?
+THM{a7e9c8149fec53865eff983143b1f5ba}
+What is the Administrator's NTLM hash?
+9545b61858c043477c350ae86c37b32f
+
+What is the user flag?
+THM{400002b4b9fa7decb59019364388b8a3}
+What is the root flag?
+THM{2000099729df1a4ec18bc0346d36b5ba}
