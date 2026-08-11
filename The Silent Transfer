@@ -1,0 +1,20 @@
+Review the detection evidence around 03:47 UTC and correlate it with the repeated C2 traffic. Which internal IP address originated that traffic?
+10.14.30.88
+Working backwards from the C2 activity, which domain was used to deliver the initial dropper to the compromised workstation?
+cdn-updates.microsoftservice.net
+Identify the file downloaded from the delivery domain. What is its SHA256 hash?
+7f3b2e1a9c8d4f5e6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f90
+Which source port did the compromised workstation use for its first connection to the C2 server?
+51000
+Review the TLS activity between the compromised workstation and the C2 server. What JA4 fingerprint identifies the C2 client?
+t13d190900_9dc949149365_97f8aa674fd9
+After C2 was established, how many unique internal destination IP addresses did the compromised workstation contact during its SMB discovery activity?
+23
+Following the SMB activity, the attacker established an RDP connection to an internal server. What is the destination IP address?
+10.14.0.12
+Review the DNS activity originating from the RDP destination. Which domain did the server resolve immediately before the large outbound transfer?
+backup.corpfiles-sync.com
+Identify the archive transferred from the internal server to the external endpoint. What is its SHA256 hash?
+a3f8e2c1d4b7a9e0f2c3d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6
+Inspect the application-layer contents of the C2 traffic. What command did the attacker issue to the compromised workstation?
+whoami
