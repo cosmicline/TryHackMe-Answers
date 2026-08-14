@@ -1,0 +1,12 @@
+Which web page did the attacker attempt to brute force?
+/wp-login.php
+What is the absolute path to the backdoored PHP file?
+/var/www/html/wordpress/wp-content/themes/blocksy/404.php
+Which file path allowed the attacker to escalate to root?
+/etc/ssh/id_ed25519.bak
+Which IP was port-scanned after the privilege escalation?
+172.16.8.216
+What is the MD5 hash of the malware persisting on the host?
+d6f2d80e78f264aff8c7aea21acb6ca6
+Can you access the DeceptiPot in recovery mode?
+THM{acc3ss_gr4nt3d!}
