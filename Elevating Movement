@@ -1,0 +1,12 @@
+When did the attacker perform RDP login on the server?
+2025-06-30 16:33:18
+What is the full path to the binary that was replaced for persistence and privesc?
+C:\Users\emily.ross\Documents\Coreinfo64.exe
+What is the type or malware family of the replaced binary?
+Meterpreter
+Which full command line was used to dump the OS credentials?
+pcd.exe /accepteula -ma lsass.exe text.txt
+Using the stolen credentials, when did the attacker perform lateral movement?
+2025-06-30 19:47:14
+What is the NTLM hash of matthew.collins' domain password?
+eb3d2de2f21b31933fb4a4fd7a7d314d
