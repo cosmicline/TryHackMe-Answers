@@ -1,0 +1,12 @@
+What is the absolute path to the initial malicious file executed on this host?
+C:\Windows\Tasks\MicrosoftUpdate.dll
+Which process ID (PID) was assigned to the process used to execute the initial payload?
+2928
+What was the full command line used by the attacker to launch initial execution on this host?
+rundll32.exe C:\Windows\Tasks\MicrosoftUpdate.dll, RunMe
+The attack launched various processes. What is the name of the final process in the chain?
+notepad.exe
+What are the first five bytes (in hex, e.g., 4d5a9000) of the Meterpreter shellcode injected into it?
+fc4889ce48
+Which is the IP address that the hosts perform a lateral movement using port 3389?
+172.16.2.9
