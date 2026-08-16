@@ -1,0 +1,12 @@
+What was the website from which the user downloaded the malicious application's installer?
+developai.thm
+What is the name of the malicious application's installer?
+DevelopAIInstaller.pkg
+When was the malicious application installed in the system?
+2025-07-04 10:09:03
+Which TCC permission did the application request first?
+kTCCServiceSystemPolicyDesktopFolder
+What is the full C2 URL to which the application exfiltrated data?
+http://c7.macos-updatesupport.info:8080
+Which persistence mechanism did the application use?
+LaunchAgents
