@@ -1,0 +1,12 @@
+What ports did the threat actor initially find open? Format: from lowest to highest, separated by a comma.
+53,80,88,135,139,389,445,464,593,636,3268,3269,5357
+The threat actor found four valid usernames, but only one username allowed the attacker to achieve a foothold on the server. What was the username? Format: Domain.TLD\username
+DIRECTORY.THM\larry.doe
+The threat actor captured a hash from the user in question 2. What are the last 30 characters of that hash?
+55616532b664cd0b50cda8d4ba469f
+What is the user's password?
+Password1!
+What were the second and third commands that the threat actor executed on the system? Format: command1,command2
+reg save HKLM\SYSTEM C:\SYSTEM,reg save HKLM\SAM C:\SAM
+What is the flag?
+THM{Ya_G0t_R0aSt3d!}
