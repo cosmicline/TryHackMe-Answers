@@ -1,0 +1,20 @@
+What is the doc file opened by the infected user?
+Hypersonic_Test_Schedule_2025.docm
+What is the PR#1 flag?
+THM{OfFicE_LOL_bIN}
+What is the filename of the internal tool that may cause false positives in PR#2 if not properly filtered?
+researchdeploy.exe
+What is the PR#2 flag?
+THM{sIgNeD_bInArY_PrOxY}
+What is the username that the attacker used to execute the LSASS dump?
+m.okafor
+What is the PR#3 flag?
+THM{DuMpInG_LsAsS}
+When did the pass-the-hash authentication happen?
+03/11/2025 10:40:00.000 AM
+What is the PR#4 flag?
+THM{PaSs_ThE_HaSh}
+In which folder should an attacker place a malicious binary to make it look like a legitimate backup routine?
+D:\Backups\nightly
+What is the PR#5 flag?
+THM{ArChIvE_AnD_ExFiL}
