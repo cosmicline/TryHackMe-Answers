@@ -1,0 +1,12 @@
+Which domain account was used to initiate the remote session onto the host?
+matthew.collins
+For how many seconds did the attacker maintain their PowerShell session active?
+3455
+What was the attacker's C2 IP address used for staging and exfiltration?
+167.172.41.141
+Which well-known tool was used to exfiltrate the collected data?
+Rclone
+What is the obscured password to the attacker-controlled Mega?
+yWKgVA7Rv1iIoG-VWAr7NAFbwKHNiMZGNybJ4QybJHtiFg
+What is Lucas's email address found in the exfiltrated data?
+lucas.rivera@deceptitech.thm
