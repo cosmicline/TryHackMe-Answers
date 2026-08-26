@@ -1,0 +1,35 @@
+At step 2 of the reading order we check the dependency manifest, because a pinned old version is a lead we can search against a CVE database. Which file conventionally holds that manifest in a Python project?
+requirements.txt
+Which decorator marks a function as a route, and therefore an entry point, in a Flask application?
+@app.route
+We read configuration before any route handler because a setting like DEBUG = True changes how every later bug behaves. In a Flask app, which file conventionally holds that debug flag and the secret key?
+config.py
+
+Tracing backwards from a cursor.execute call, we walk the value back to the point where it entered the application from the client. What do we call that entry point?
+source
+render_template_string and subprocess.run(..., shell=True) are both examples of which type of location in our source-to-sink model?
+sink
+In the worked example, request.args.get("name") flows into render_template_string with no validation. Which vulnerability class does that source-to-sink path create?
+SSTI
+
+Our first triage pass is a single grep that searches every Python file recursively and prints the line number of each hit so we can jump straight to it. Which two-flag combination gives us recursion plus line numbers?
+-rn
+Semgrep matches code structure rather than text, and we point it at a community ruleset such as p/owasp-top-ten. Which command-line flag selects that ruleset?
+--config
+
+With subprocess.run(), the difference between safe and exploitable is whether the input is parsed by /bin/sh. Which keyword argument, when present, hands the whole command string to the shell and so opens command injection? Give it as written in code, including its value.
+shell=True
+Insecure deserialisation reaches code execution because the deserialiser can be told to call arbitrary objects through __reduce__. Which Python function in the task is the worst offender, loading attacker bytes back into objects?
+pickle.loads
+
+We read send_file(os.path.join(UPLOAD_DIR, filename)) on user input as the dangerous shape for path traversal. Which Flask function is its safe counterpart, routing the path through safe_join and returning a 404 when it escapes the directory?
+send_from_directory
+Reading a handler, we find Vault.query.get(item_id) keyed on the URL id with no owner_id = current_user condition in the filter. What is the common acronym for the access-control flaw this creates?
+IDOR
+
+The search query filters on the logged-in user and selects two columns, so reach the system_flags table with a UNION of a matching column count. Exploit the SQL injection to extract the stored flag. What is the flag?
+THM{un10n_b4s3d_sql1_dump3d}
+The same handler echoes the query back through render_template_string. Climb from {{7*7}} to command execution and read the FLAG2 value from the application's environment. What is the flag?
+THM{j1nj4_ss71_to_rc3}
+The download handler joins our filename onto the upload directory with no validation. Walk out of that directory to read /flag3.txt. What is the flag?
+THM{send_file_tr4v3rs4l_w1n}
