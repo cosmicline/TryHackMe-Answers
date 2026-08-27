@@ -1,0 +1,39 @@
+What is the name of the server that runs Active Directory services?
+Domain Controller
+
+Which group normally administers all computers and resources in a domain?
+Domain Admins
+What would be the name of the machine account associated with a machine named TOM-PC?
+TOM-PC$
+
+When referring to Kerberos, what type of ticket allows us to request further tickets known as TGS?
+Ticket Granting Ticket
+When using NetNTLM, is a user's password transmitted over the network at any point? (yay/nay)
+nay
+
+What is a group of Windows domains that share the same namespace called?
+Tree
+
+Once you have promoted the server to a domain controller, navigate to the flag verification system (http://192.168.10.250:5000) and click Verify TBM Domain Promotion to receive a flag in C:\flag1.txt on CDC1. What is the flag?
+THM{caf78a39-1e8b-4ec2-8eaf-e38a42590d1b}
+
+What is the fourth department as listed in the People OU?
+Marketing
+How many bankers are currently servicing private clients?
+11
+
+Once the host has been joined to the domain, navigate to the flag verification system (http://192.168.10.250:5000) and click Verify Server1 Domain Joining to receive a flag in C:\flag2.txt on Server1. What is the flag?
+THM{941c5c55-f17a-422f-b7c3-7bb2386f187e}
+
+After organising the available computers, how many ended up in the Workstations OU?
+3
+
+What is the name of the network share used to distribute GPOs to domain machines?
+sysvol
+Once you have applied the GPO, navigate to the flag verification system (http://192.168.10.250:5000) and click Verify Servers OU GPO to receive a flag in C:\flag3.txt on Server1. What is the flag?
+THM{2d8fa7ec-c925-425d-bbd3-ba02f03219f5}
+
+Once Claire has been enabled to authenticate to Server2, navigate to the flag verification system (http://192.168.10.250:5000) and click Verify TVM Foreign Trust (Claire) to receive a flag in C:\flag4.txt on Server2. What is the flag?
+THM{3ad3060c-429e-42e0-98ca-318b3227c742}
+Once alice.king has been enabled to authenticate to Server1, navigate to the flag verification system (http://192.168.10.250:5000) and click Verify TVM Foreign Trust (alice.king) to receive a flag in C:\flag5.txt on Server1. What is the flag?
+THM{2d159874-69b3-4778-b9f9-13b047fa83a2}
