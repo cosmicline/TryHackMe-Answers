@@ -1,0 +1,34 @@
+Reviewing application.properties, what single value assigned to management.endpoints.web.exposure.include opens the whole management surface rather than just health and info?
+*
+The flag's key app.actuatorflag matches none of Actuator's masked words, so which endpoint renders it in cleartext when we read a named property?
+env
+Read the property from the live app. What is the flag?
+THM{4ctu4t0r_3nv_l34kZ}
+
+Spring's data layer parameterises by default, yet SearchController reintroduces injection by passing a string-built query to which Spring class?
+JdbcTemplate
+Reading the Flag entity tells us the schema before we send a payload. Which column do we UNION out to recover the hidden flag?
+secret
+Inject through the search endpoint to read the hidden flag. What is it?
+THM{jdbc_str1ng_c0nc4t_un10n}
+
+The profile form renders only email, but the binder matches every property by name. Which User field do we overpost to reach admin?
+role
+The lighter of the two fixes restricts which fields the binder populates without introducing a separate DTO. Which annotation marks the method that holds that fix?
+@InitBinder
+Overpost the field and read the admin dashboard. What is the flag?
+THM{spr1ng_m4ss_4ss1gnm3nt}
+
+Rebuilding an object graph from attacker bytes is what makes this RCE possible. Which ObjectInputStream method, the sink in ImportController, performs that reconstruction?
+readObject
+The sink alone is not enough; the gadget chain needs a vulnerable library on the classpath. Which dependency in pom.xml supplies the gadget that turns readObject into code execution?
+commons-collections
+Run the gadget chain and read the dropped flag. What is it?
+THM{j4v4_d3s3r14l1z4t10n_rc3}
+
+Of the four findings, the code-execution one outranks the rest because its blast radius reaches the host. Which endpoint provides that foothold?
+/internal/import
+The version pinned in pom.xml decides which payload works before we send a byte. Which ysoserial gadget chain matches the commons-collections version on the classpath?
+CommonsCollections6
+Use the foothold to read the host-only flag. What is it?
+THM{wh1t3b0x_spr1ng_full_ch41n}
