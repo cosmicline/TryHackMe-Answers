@@ -1,0 +1,34 @@
+Which value in settings.py, when left True in production, makes Django render its detailed technical 500 error page?
+DEBUG
+Recover it once and you can forge any value Django signs: session cookies, CSRF tokens, and reset tokens. Which setting holds this root signing secret?
+SECRET_KEY
+Trigger the technical 500 page on the lab machine and read the leaked value. What is the SECRET_KEY? (Answer Format: the full value, including the prefix)
+django-insecure-7h3_5h4r3d_fr4m3w0rk_k3y_2026
+
+Of the three ORM escape hatches, which QuerySet method splices a raw SQL fragment into the WHERE clause and reintroduces SQL injection when input is f-stringed in instead of parameterised?
+extra
+Which keyword argument on that method binds the values through the database driver and removes the injection?
+params
+Read the model source to learn the schema, then inject through the live endpoint to read the hidden flag. What is the flag?
+THM{dj4ng0_3xtr4_0rm_sql1}
+
+A Flask session cookie is signed, not encrypted, so its integrity rests entirely on one secret. Which secret signs it, the same value shared with Django?
+SECRET_KEY
+Once the key is known, which command-line tool forges a valid Flask session cookie (and can also decode one or brute-force a weak key)?
+flask-unsign
+Forge a session with role set to admin, replace your cookie, and reach the dashboard. What is the flag?
+THM{fl45k_s3ss10n_f0rg3d}
+
+Unlike render_template, which treats its arguments as data, which Flask function compiles its string argument as a Jinja2 template on every call, making it the SSTI sink when fed user input?
+render_template_string
+The smoke test {{7*7}} returns 49 in both Jinja2 and Twig. Sending {{7*'7'}} tells them apart. What does it return in a Jinja2 context, confirming you are in Python rather than Twig?
+7777777
+Exploit the SSTI on /search to run a command and read /flag.txt. What is the flag?
+THM{j1nj4_55t1_rc3_ch41n}
+
+The key leaks from Django, yet the sessions you forge to reach the dashboard and console belong to the other service that trusts the same key. Which framework serves those two routes? (one word)
+Flask
+The chain starts by leaking the shared SECRET_KEY. Which Django route deliberately raises an exception, rendering the technical 500 page that echoes the key? (Answer Format: URL path with trailing slash)
+/error/
+Forge a superadmin session and reach /console. What is the final flag?
+THM{py_fr4m3w0rk_ch41n_pwn3d}
