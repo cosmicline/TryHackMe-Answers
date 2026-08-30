@@ -1,0 +1,34 @@
+Which web.config element holds the validation and decryption keys that sign and encrypt ViewState?
+machineKey
+IIS will not serve web.config over HTTP, but a developer's leftover copy is not protected. Which file on the lab machine's LegacyPortal leaks the real signing key?
+web.config.bak
+Run the ViewState payload and read the export file. What is the flag?
+THM{vi3wst4t3_d3s3r14l1z4t10n_rc3}
+
+Which Entity Framework Core method runs a hand-written SQL string and reopens SQL injection when a request value is interpolated into that string instead of passed as a parameter?
+FromSqlRaw
+Reading the model and AppDbContext source recovers the schema before we send a payload. Which table does the hidden flag's Value column belong to?
+Flags
+Inject through the search endpoint to read the hidden flag. What is it?
+THM{fr0m_sql_r4w_un10n_l34k}
+
+The profile form only renders Email and DisplayName, yet binding happens against the whole User type. Which property, smuggled into the POST body, escalates the account to administrator when the binder sets it?
+IsAdmin
+Which ASP.NET Core attribute fixes the overpost by restricting model binding to a named allow-list of properties?
+[Bind]
+Overpost the field, re-login, and read the admin dashboard. What is the flag?
+THM{0v3rp0st_t0_4dm1n}
+
+Which TypeNameHandling value in the Import.ashx source makes Json.NET honour the $type property and instantiate whatever type the input names, creating the sink?
+TypeNameHandling.All
+Which ysoserial.net gadget chain reaches code execution through the Json.NET formatter by wrapping a method call in a type it instantiates from $type?
+ObjectDataProvider
+Run the deserialisation payload and read the export file. What is the flag?
+THM{j50n_n3t_typ3n4m3_rc3}
+
+Of the four bugs across the two apps, code execution on the host outranks the data-only leaks. Which application hosts the deserialisation sinks that reach that code execution? (one word)
+LegacyPortal
+The payload generator needs the signing algorithm alongside the recovered key. Which validation algorithm does the leaked web.config.bak name?
+SHA1
+Use the foothold to read the host-only flag. What is it?
+THM{wh1t3b0x_full_ch41n_pwn3d}
