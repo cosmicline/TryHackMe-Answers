@@ -1,0 +1,21 @@
+Which configuration file in the target holds the APP_KEY and the debug flag?
+.env
+
+Which comparison operator in the verify() method makes the magic-hash bypass possible?
+==
+
+Which PHP wrapper is used against the inclusion flaw to base64-encode and read a file's source rather than execute it?
+php://filter
+
+In ImportController, which loadXML option enables the entity substitution that makes XXE possible?
+LIBXML_NOENT
+
+In the routes/web.php file, which route is reachable without authentication because it sits outside the auth middleware group?
+/admin/users
+Which pinned package is vulnerable to CVE-2021-3129?
+facade/ignition
+
+Which triage step confirms that a flagged sink is actually reachable from a genuine source on a real request?
+reachability
+
+What is the flag from /var/www/flag.txt?
