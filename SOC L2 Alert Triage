@@ -1,0 +1,15 @@
+What is the most common trigger for L2 to start the triage?
+Escalated Alert
+
+Should you understand the rule purpose before triaging the alert? (Yea/Nay)
+Yea
+What term is used for a chronological list of events (related to the attack)?
+Timeline
+
+What is the term for a temporary response that stops the threat from spreading?
+Containment
+Would you isolate the device before receiving a confirmation? (Yea/Nay)
+Yea
+
+What is the flag you get at the end of the challenge?
+THM{triage_done_right!}
