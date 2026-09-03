@@ -1,0 +1,23 @@
+Which SOC tier, L1 or L2, bridges the SOC and the outside world?
+L2
+What do L2 analysts write to summarize SOC findings (one word)?
+Reports
+
+Should you complete the analysis after sharing the initial SOC report? (Yea/Nay)
+Yea
+Should you keep your team informed about the ongoing communication? (Yea/Nay)
+Yea
+What flag did you receive after completing the task's challenge?
+THM{executive_summary_approved}
+
+Are L2 handover notes meant for a non-technical audience? (Yea/Nay)
+Nay
+What part of the handover notes lists your findings chronologically?
+Attack Timeline
+What flag did you receive after completing the task's challenge?
+THM{trysaveme_would_be_proud}
+
+What should you provide in the AI prompt to get the best reports?
+Context
+Should you fully rely on GenAI for critical decision making? (Yea/Nay)
+Nay
