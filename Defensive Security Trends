@@ -1,0 +1,33 @@
+What is the reported average time-to-ransomware?
+17 hours
+What should SOCs do with triage routine to speed up response?
+Automate it
+
+Which of the mentioned remote access tools was used by DarkGate malware?
+AnyDesk
+Is the network perimeter becoming more predictable in modern environments? (Yea/Nay)
+Nay
+
+Refer to the screenshot of the Verizon 2026 report. What percentage of incidents contained Valid accounts?
+39%
+How do you call cyber criminals who sell access to organizations' networks?
+Initial Access Brokers
+
+Refer to the explained Vercel supply chain incident. What malware was the first link in the attack chain?
+Lumma Stealer
+Imagine a supply chain attack hits your organization. Would attack TTPs fundamentally differ from other intrusions? (Yea/Nay)
+Nay
+
+Should AI become a final decision maker in a SOC? (Yea/Nay)
+Nay
+Which MITRE technique became obsolete due to AI?
+None
+
+The GitHub breach started from an infection of an employee's device. Which VS Code extension was backdoored with an infostealer?
+Nx Console
+The extension was compromised through another supply chain attack. Which open-source package ecosystem was the root cause?
+TanStack
+Open the Verizon report to page 40 (System Intrusion section). How much has threat actor RMM usage grown year-over-year?
+240%
+Continue to the Infostealer to ransomware pipeline section a few pages later. Which access type do Initial Access Brokers most commonly sell?
+VPN
