@@ -1,0 +1,43 @@
+How many total events do you see?
+12256
+Which SourceIP has recorded the most amount of events?
+172.90.12.11
+How many events appear on 04/15/2022 from 08:05 AM to 08:06 AM?
+134
+
+How many events in the windowslogs index have an EventID field value equal to 4624?
+26
+How many events are observed with the DestinationIp = 172.18.39.6 and DestinationPort = 135?
+4
+Which SourceIp returns the highest count?
+172.90.12.11
+How many events are returned when you search the term cyber*?
+12256
+Which operator is given the lowest priority in Splunk searches?
+AND
+
+Which SourceProcessId has the highest value?
+9496
+Which TargetObject field value contains the highest number of results?
+HKLM\SOFTWARE\Microsoft\SecurityManager
+
+Which AccountName appears first in your results?
+SYSTEM
+Which EventID appears first?
+800
+What password was given to the user A1berto?
+paw0rd1
+
+Which Image field value has the most occurrences?
+C:\windows\system32\svchost.exe
+Which Region do the IP addresses in your events originate from?
+California
+Which Image field value has the highest RiskScore?
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+Which other user is marked as an outlier?
+jsmith
+Which country is anomalous for the user from Q1?
+JP
+Which user suspiciously logged in at 3 AM?
+njackson
