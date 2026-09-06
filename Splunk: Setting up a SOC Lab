@@ -1,0 +1,36 @@
+Which part of the Splunk deployment architecture is responsible for processing incoming data from forwarders?
+Indexer
+Which Splunk feature would enable you to remotely manage forwarders on each system?
+Deployment Server
+
+In which Linux directory, typically used for add-on or third-party software, should Splunk be installed?
+/opt
+Which port does the Splunk web interface run on by default?
+8000
+
+Using the CLI, what command would you run to search Splunk for the term coffely?
+./splunk search coffely
+Which Splunk command would you run to get help with Splunk searches?
+./splunk help search
+
+What is the full command you used to start the forwarder?
+./splunk start --accept-license
+Which port does the Splunk forwarder run on by default?
+8089
+
+What is the value in the sourcetype field?
+auth
+What is the value of the process field when the new user is added?
+adduser
+
+What command would you use on Linux to enable your Splunk instance as a deployment server?
+./splunk enable deploy-server
+
+Which sourcetype should be used to parse and categorize Apache access logs correctly?
+access_combined
+After browsing the Coffely site, which root field value has the highest count?
+images
+What is the full uri_path field value for cappuchino.png?
+/images/coffeerecipes/cappuchino.png
+Check out the list of recent orders and find the flag!
+THM{best_coffee_in_town!}
