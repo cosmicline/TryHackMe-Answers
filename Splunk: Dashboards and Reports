@@ -1,0 +1,21 @@
+Which Source_IP field value recorded the highest number of events?
+10.0.0.1
+What is the flag value hidden within the search query?
+THM{splunk_report_wizard!}
+
+How many Source_IP addresses outside of the expected range accessed /restricted.html?
+2
+How many total 404 status_code were recorded at /payments.html?
+189
+What is the highest number of 404's received in a given hour with the data available?
+16
+
+Which URI field value has the least amount of events present?
+/pictures.html
+How many times did 172.16.0.1 receive the status_code 200 from /payments.html?
+50
+
+Which feature in Splunk Enterprise Security provides visibility into SOC efficiency and performance?
+SOC Operations
+What does Splunk SOAR use to automate response actions based on conditions, filters, and decision logic?
+Playbooks
