@@ -1,0 +1,39 @@
+What is the full file path to the Splunk directory?
+/opt/splunk
+How many executables are available in the /scripts directory?
+3
+
+Which configuration file would you edit to instruct Splunk on what data to ingest?
+inputs.conf
+What is the full path to Splunk's default configuration files?
+/opt/splunk/etc/system/default
+
+Which Splunk configuration file is used to define output destinations for indexed data?
+outputs.conf
+What line would you add to fields.conf to begin defining the custom field?
+[SourceIP]
+
+When Splunk is first installed, how many default applications are available?
+25
+What is the full path to your newly created application directory?
+/opt/splunk/etc/apps/DataApp
+
+Which configuration file is used to specify parsing rules?
+props.conf
+What regex pattern is used in the case above to break the events?
+(CONNECT|DISCONNECT)
+
+Which configuration setting was used to ensure Splunk breaks the event boundary before the specified regex pattern?
+BREAK_ONLY_BEFORE
+Which regex pattern did you use in your props.conf file to specify where Splunk should break the events?
+\[Authentication\]
+
+Which payment security standard did you adhere to by masking sensitive customer credit card information?
+PCI DSS
+What is the full value of the SEDCMD you used in props.conf?
+s/-\d{4}-\d{4}-\d{4}/-XXXX-XXXX-XXXX/g
+
+After performing field extraction on the purchase logs, how many User field values exist within the event data?
+14
+How many unique masked CC_Number field values were extracted from the events?
+10
