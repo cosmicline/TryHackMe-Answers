@@ -1,0 +1,24 @@
+What is the full path to the Fixit app directory in your instance?
+/opt/splunk/etc/apps/fixit
+What is the full path of the network-logs script?
+/opt/splunk/etc/apps/fixit/bin/network-logs
+Which Splunk stanza setting will you use to define the event boundaries for the scenario logs?
+BREAK_ONLY_BEFORE
+Which regex pattern should be used to define the start of each event?
+\[Network-log\]
+After you’ve extracted the relevant fields, what Domain appears in the log data?
+Cybertees.THM
+How many Username field values exist within the events generated?
+28
+How many URI field values were you able to extract from the available logs?
+12
+As you begin analyzing the network traffic, how many individual /products pages appear in the data?
+2
+What is the only URI field value found in the event data without a file extension?
+/sales/
+Who is the most active User on the network?
+Robert Wilson
+How many unique IP ranges are represented in the observed network traffic?
+3
+Which user accessed the secret-document.pdf on your client's server?
+Sarah Hall
