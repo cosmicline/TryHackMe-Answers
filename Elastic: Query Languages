@@ -1,0 +1,35 @@
+Since the colon : is a special character in KQL, what query would you use to search for this exact value?
+user.name: "david:davidson"
+Suppose you want to find values such as hack and hacking in the activity field. What wildcard query would return these results?
+activity: hack*
+
+How many incidents involve the file marketing_strategy_2023_07_23.pptx?
+4
+How many incidents involve files on a File Server with names that start with marketing_strategy?
+135
+Which Web Server had a true positive incident where both the admin and it users were logged in?
+web-server-77
+
+How many events exist where a client_list file was affected by ransomware?
+69
+Investigate the affected_systems.affected_files.file_name field using the regex /.*project.*/. What is the affected system name on the latest event managed by EVenis?
+web-server-37
+
+How many Data Leak incidents have a severity_level of 9 or higher?
+52
+How many events occurred on either an Email Server or a Web Server?
+65
+Which analyst stated that the Data Leak on file-server-65 was a false positive?
+JLim
+
+How many incidents has JLim handled in which the word true appears with a single character difference?
+110
+How many events contain data-leak true-negative within three words of each other?
+33
+How many incidents handled by AJohnston contain detected and negative within two positions?
+40
+
+Which Elastic component standardizes field names across different data sources?
+Elastic Common Schema
+Which Elastic language is often used to write event correlation detection rules?
+Event Query Language
