@@ -1,0 +1,33 @@
+Which component of the Elastic Stack represents the interface analysts use to visualize log data?
+Kibana
+Which Elastic component would you use to manage the agents deployed across your client's infrastructure?
+Fleet Server
+
+Which port does the Kibana web interface run on by default?
+5601
+Access the Kibana menu in the top left of the Kibana home page. What is the name of the first section that is listed?
+Analytics
+
+What is the name of the default integration used to collect system metrics and log data from your host?
+System
+What is the event.dataset field value of the associated logs?
+system.auth
+What is the full message field value for the event created?
+user testuser added by root to group sudo
+
+What is the event.dataset field value for the Apache access logs?
+apache.access
+What is the hidden flag value?
+THM{access_log_secrets!}
+
+Investigate the newly ingested VPN log data. Who is the most active user on the network?
+s.summer
+What is the source.ip of the user you identified in the previous question?
+72.14.24.1
+
+What percent of auth_fail events does the user p.mallow account for? (e.g., 82.7%)
+62.5%
+Which field value represents the least accessed vpn.server.region?
+us-west-1
+Which vpn.client.ip was only logged 26 times within the available data?
+10.10.10.116
