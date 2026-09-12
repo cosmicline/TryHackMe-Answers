@@ -1,0 +1,34 @@
+What version of the Elastic Defend integration is installed on your Linux host machine?
+9.2.0
+Which default protection level does Elastic Defend use for Malware?
+Prevent
+
+What is the full process.name field value for the Python process?
+python3.12
+What is the top value for the network.type field?
+ipv4
+
+What is the process.parent.executable field value for the event you located?
+/usr/bin/bash
+What is the first command executed by the script?
+find /home -name *creds*
+What is the name of the directory created in /tmp?
+creds
+
+What is the event.risk_score field value?
+73
+What event.code field value is assigned to the above alert?
+malicious_file
+What is the risk score assigned to the /etc/shadow file read alert?
+47
+What is the first MITRE ATT&CK tactic name associated with the alert?
+Privilege Escalation
+
+How many MITRE Tactics are associated with the Cron Job Created or Modified alert?
+3
+What is the process.executable field value?
+/usr/bin/printf
+Which IP address and port number were used for the reverse shell attempt?
+10.10.10.100 4444
+What is the name of the cron job whose permissions were set?
+system-update
