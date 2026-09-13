@@ -1,0 +1,38 @@
+Which Elastic stack component offers advanced filtering, parsing, and enrichment of log data?
+Logstash
+Which Logstash version number did you just install?
+9.2.4
+
+Which plugin parses unstructured log data using custom patterns?
+Grok
+Which filter plugin is used to perform mutation of event fields?
+Mutate
+
+Check out the File input plugin documentation. Which configuration option is required?
+path
+Which field does the JSON filter plugin read the contents of?
+message
+
+Imagine you want to ingest native Linux syslog into your Elastic instance. Which Logstash input plugin would you use to monitor and ingest the locally hosted syslog file?
+file
+Check out the documentation for the Google Cloud Storage input plugin. What is the one required input configuration setting?
+bucket_id
+
+Which filter plugin is used to rename, replace, and modify event fields?
+mutate
+Which filter plugin is used to remove fields from events?
+prune
+Change the mutate filter configuration in the example below to rename the field src_ip to source_ip.
+rename => { "src_ip" => "source_ip" }
+
+Which Logstash output plugin is used to print events to the console?
+stdout
+Check out the sample syslog output configuration below. What are the values of setting1, setting2, and setting3 to complete the configuration?
+host, port, protocol
+
+Which two filters did you use in your auth.conf configuration file?
+grok, date
+Add a new user via the command line with useradd -m detective_elastic. Head back into Kibana to investigate the auth.log events. What is the program field value for the latest events?
+useradd
+Add a password for the new user using passwd detective_elastic. Investigate the password change event in Kibana. What is the full msg field value for the password change event?
+pam_unix(passwd:chauthtok): password changed for detective_elastic
