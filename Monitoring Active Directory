@@ -1,0 +1,30 @@
+Which file stores domain user credentials on the domain controller?
+NTDS.dit
+A local user authenticates to a workstation. Will this generate any events on the Domain Controller? (Answer Format: Yea or Nay)
+Nay
+What Event ID is generated when a user requests a TGT?
+4768
+In win index in Splunk, how many unique accounts requested TGTs in the dataset across all time?
+14
+
+In Splunk, what field contains the group name?
+Group_Name
+In Splunk, what is the MOST common logon type in the dataset?
+3
+
+What character suffix identifies computer accounts in AD?
+$
+Using Event ID 4769, what is the MOST frequently requested service?
+THM-DC$
+
+What command displays all current audit policy settings on a domain controller?
+auditpol /get /category:*
+
+What is the name of the newly created account?
+nathan.brooks
+Who created this account?
+adm-luke.sullivan
+What group was this user added to?
+Marketing
+What was the source IP address of nathan.brooks's first TGT request?
+10.5.50.12
