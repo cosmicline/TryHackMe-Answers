@@ -1,0 +1,42 @@
+Where does IIS store access logs by default?
+C:\inetpub\logs\LogFiles\W3SVC1
+
+What is the filename of the web shell the attacker used?
+shell.aspx
+What IP address was used to interact with the web shell?
+203.0.113.47
+After accessing the web shell, what was the first reconnaissance command the attacker executed?
+whoami
+
+What virtual directory path provides access to the Exchange admin console? (Answer Format: /path)
+/ecp
+When investigating an OWA brute-force attack, IIS logs show the attacker's source IP but not the targeted username. Which Windows Event ID should you check to find the targeted account?
+4625
+
+How many failed login attempts occurred during the OWA brute-force attack?
+15
+What username was successfully compromised in this attack?
+sarah.kim
+What source IP address conducted this brute-force attack?
+203.0.113.47
+After the successful login, what path did the attacker access to reach the Exchange admin console? (Answer Format: /path)
+/ecp
+
+What Windows Event ID indicates that NPS granted network access to a VPN user?
+6272
+In a typical enterprise VPN deployment, what protocol does the VPN gateway use to communicate authentication requests to NPS?
+RADIUS
+
+What username was successfully compromised via VPN after the credential attack?
+david.chen
+Based on the NPS access-accept event, at what time did the successful VPN authentication occur? (Answer Format: HH:MM:SS)
+10:47:06
+
+What is the filename of the web shell the attacker deployed?
+error.aspx
+What was the first reconnaissance command the attacker executed through the web shell?
+hostname
+What URI path was used to upload the web shell to the server? (Answer Format: /path/file.ext)
+/internalapp/upload.aspx
+At what time was the web shell file created on the server? (Answer Format: HH:MM:SS)
+10:40:33
