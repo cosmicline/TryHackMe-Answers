@@ -1,0 +1,35 @@
+What is the first discovery command the attacker executed?
+nltest  /domain_trusts
+What is the full PowerShell command used to enumerate domain users?
+Import-Module ActiveDirectory; Get-ADUser -Filter * -Properties MemberOf | Select-Object Name, SamAccountName
+
+What Logon Type in Event 4624 indicates a remote desktop session?
+10
+What Event ID, logged on the source system, records when a process uses alternate credentials to connect to a remote resource?
+4648
+
+What account was used to access the ADMIN$ shares?
+luke.sullivan
+Which user account was responsible for executing the lateral movement commands?
+michelle.smith
+
+What was the destination host the attacker targeted via PsExec?
+THM-SQL-SRV
+What is the first command that the attacker executed from the source machine using PsExec?
+C:\Tools\PsExec.exe  -accepteula \THM-SQL-SRV cmd /c "hostname & whoami & ipconfig"
+
+What is the source IP address of the RDP session that landed on the Domain Controller?
+10.5.30.120
+Tracing backward through the chain, what is the original source IP where the RDP chain began?
+10.5.50.12
+
+What is the service binary path?
+%SystemRoot%\svcupdate.exe
+What account was used to access ADMIN$?
+ryan.chen
+What is the source IP address of the lateral movement to THM-SHR-SRV?
+10.5.50.15
+What is the first remote command the attacker executed on the target machine?
+"cmd" /c "hostname & whoami & ipconfig"
+What is the origin host?
+THM-HR-WS
