@@ -1,0 +1,38 @@
+Which IP address is performing a password spraying?
+94.20.222.248
+Which IP address is performing a throttling brute force?
+38.165.231.218
+What is the user's email address that was compromised?
+amanda.costa@finegalo.thm
+
+What is the user email address that is at risk in the tenant?
+allan.senna@finegalo.thm
+When was the last risky sign-in attempt from this risky user based on risk detection logs?
+2026-03-03 13:51
+What is the type of risk identified during this risky user sign-in based on risk detection logs?
+anonymizedIPAddress
+What is the name of the CAP policy that was enforced and blocked some sign-in attempts from this risky user?
+Block Suspicious Countries
+What was the IP address that was blocked from signing in this risky user?
+94.20.222.251
+
+Which user was the target of an MFA fatigue attack?
+igor.bicalho@finegalo.thm
+What is the error code of the failed MFA prompts?
+500121
+What is the country code (e.g., UK, MX) that the user normally signs in before the attack?
+DK
+When does the attacker successfully authenticate in the user account?
+2026-03-04 13:26
+
+What is the user email address that the attacker created?
+rafael.maciel@finegalo.thm
+Which role (Role.DisplayName) was assigned to this new account?
+Global Administrator
+When did the attacker add a new MFA device?
+2026-03-04 13:36
+
+Which permission allows an application to read all mailboxes within a tenant?
+Mail.Read.All
+What is the activityDisplayName value you use to track all consent grants to applications within Entra ID audit logs?
+Consent to application
