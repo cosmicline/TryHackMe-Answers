@@ -1,0 +1,34 @@
+Which attack stage involves sending phishing emails from a compromised account to other employees?
+Lateral Movement
+
+Which appDisplayName value confirms that a user accessed their Exchange Online mailbox?
+One Outlook Web
+Which Exchange Online feature can attackers abuse to automatically delete replies to phishing emails?
+New-InboxRule
+
+A suspicious inbox rule was created by a user. What is the name of the rule that forwards emails to an external address?
+Cleanup
+What word does this forwarding inbox rule trigger on in the subject?
+Verify
+The same user configured mailbox-level email forwarding. To which external address were emails being forwarded?
+d4ruy6g@protonmail.com
+
+All TechCorp employees work from the same office network. A colleague reported receiving a suspicious email from an internal account. What was the subject line of this email?
+Urgent: Verify Your Account
+How many colleagues received the phishing email according to message trace?
+2
+From which IP address were the suspicious emails sent?
+190.2.149.93
+
+From which city was the malicious login performed?
+Ursynow
+What was the name of the suspicious inbox rule created by the attacker?
+Maintenance
+The attacker configured email forwarding. What was the email in ForwardingSmtpAddress?
+x7tpq2m@protonmail.com
+Robert's colleagues received a phishing email. What was the subject line?
+Action Required: Password Reset
+It seems the attacker was using a VPN. From which IP address did the attacker send the phishing emails?
+138.199.21.211
+One of the recipients replied to the phishing email. Which user replied?
+emma.clarke@techcorp.thm
