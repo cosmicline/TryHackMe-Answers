@@ -1,0 +1,32 @@
+Which of the mentioned Microsoft services is like SharePoint, but for personal use?
+OneDrive
+How do you call the SharePoint top-level container that holds objects, such as files?
+site
+
+Refer to the Entra ID sign-in logs (azure:aad:signin). What is the event ID that confirms Emily's login to SharePoint?
+22192ff2-272a-458c-8fac-7155db417700
+Move on to the SharePoint logs (o365:management:activity). What PDF file did Emily upload to the SharePoint?
+Instructions.pdf
+Soon after, Emily shared the PDF with an external user. What is the email of the target user?
+ahmad.khan@opendoor.thm
+
+Which M365 event is generated every time the file is downloaded?
+FileDownloaded
+Which M365 field can you use to identify the application behind the event?
+ApplicationDisplayName
+
+Which file type is often abused to share phishing through SharePoint?
+OneNote
+Which event is generated when someone shares a file with an external user?
+AddedToSecureLink
+
+When did Michael open the shared OneNote file?
+2026-02-03 12:49:44
+With which three external emails did Emma share the file, too?
+li.wang@tryhatme.thm, susan.moore@deceptitech.thm, william.baker@probablyfine.thm
+One of the users from Question 2 already accessed the malicious file. What CorrelationId value proves that the sharing link has been opened?
+945ff3a1-e059-0000-b054-6e5ee5ff2a81
+Before sharing the malicious file, attackers reviewed Emma's SharePoint. Which PowerPoint presentation file did they exfiltrate?
+THM PoC B2E.pptx
+According to Entra ID logs, from which city was the malicious login performed?
+Amsterdam
