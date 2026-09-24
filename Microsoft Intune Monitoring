@@ -1,0 +1,28 @@
+Is Intune a cloud-based or self-hosted MDM solution?
+Cloud-based
+What identity platform does Intune closely integrate with?
+Entra ID
+
+What Entra ID and Intune feature controls access based on conditions?
+Conditional Access
+Which log field in SIEM shows if the device is managed or not?
+deviceDetail
+
+What is the device ID of the wiped device?
+d66b71f3-a644-4392-89b2-d97ba5612356
+What is the hostname of the wiped Windows device?
+LPT-08312
+From which IP did the admin perform the remote wipe?
+149.40.62.43
+
+What is the ID (resourceId) of the deleted Intune script?
+c0709410-f1e0-4619-ac73-eca347ca1b8b
+When was the other script deployed to the targets?
+2026-03-17 18:57:57
+What is the output of the deployed script?
+THM{hello_world_from_intune!}
+
+Would you rather use a single shared Intune role in your company (A), or create multiple focused roles for each team or job position (B)?
+B
+What Intune feature requires multiple users to approve a dangerous action?
+Multi Admin Approval
