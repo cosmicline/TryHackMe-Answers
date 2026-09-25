@@ -1,0 +1,24 @@
+Which cloud model allows you to migrate a big on-premises network to the cloud?
+IaaS
+Which cloud model do Elastic Cloud and CrowdStrike Falcon fit into?
+SaaS
+
+Is the cloud provider responsible for securing and monitoring its own infrastructure (Yea/Nay)?
+Yea
+But should you trust the cloud provider without watching for supply chain threats? (Yea/Nay)
+Nay
+
+Does moving an unpatched server to the cloud make it secure again? (Yea/Nay)
+Nay
+What is the first major obstacle to integrating most cloud products with a SIEM?
+Paid logs
+
+What term describes cloud compute resources like VMs or containers?
+Workloads
+Which of the mentioned cloud security tools do Falco and Tetragon fit into?
+CWPP
+
+What is the flag you get after completing the first exercise?
+THM{flag_as_a_service!}
+What is the flag you get after completing the second exercise?
+THM{ready_for_cloud_migration!}
