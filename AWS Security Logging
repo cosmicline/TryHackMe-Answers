@@ -1,0 +1,32 @@
+Which security area covers management actions within the AWS console?
+Control Plane
+Which of the mentioned AWS services provides lab machines in the cloud?
+Amazon EC2
+
+From which IP did jeff.harrison user log in to AWS?
+149.40.62.48
+To which AWS account ID did jeff.harrison user log in?
+398985017225
+What S3 bucket did jeff.harrison create after the login?
+prod-website-thm
+
+Find the "AnomalousBehavior" GuardDuty alert in the logs. From which VPN did the suspicious activity originate?
+ProtonVPN
+Analyze two other alerts from the i-04fa0268276e1f763 EC2 instance. What is the path to the detected malware, and which domain did it query?
+/home/ubuntu/xmrig-6.24.0/xmrig, donate.v2.xmrig.com
+Continue to the CloudTrail logs to get more instance context. Who created the infected EC2 instance? Provide the full ARN field.
+arn:aws:iam::398985017225:root
+Which two risky ports did that user expose for the EC2 instance?
+22, 3389
+
+Start with the CloudFront access logs. Which IP address logged in to the admin portal?
+168.84.119.124
+Find an answer in the same CloudFront logs. How many IPs searched for the "tryhackme" keyword?
+14
+Now, move on to the S3 Data events. Which interesting S3 file has been accessed?
+backup.tar.gz
+
+How would you call a service that is built and maintained by the cloud vendor?
+Managed Service
+Which cloud workload monitoring tool was mentioned as an alternative to Auditd?
+Falco
