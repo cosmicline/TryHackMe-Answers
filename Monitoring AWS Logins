@@ -1,0 +1,32 @@
+What type of credential is used to access AWS resources via CLI/SDK?
+Access Key
+Which IAM identity type allows you to gain AWS permissions temporarily?
+IAM Role
+
+How many times did Thomas fail to log in to the AWS console?
+11
+Which other user logged in to the AWS console without MFA?
+otake.nao
+
+What access key ID of Michael was used in the attack?
+AKIAVZZK4G6EW3NCJENS
+What is the name of the S3 bucket accessed by the attackers?
+ocr-passport-scan
+How many files were exfiltrated and deleted by the adversary?
+26
+Which file was uploaded to the bucket at the end of the attack?
+WHERE-ARE-MY-FILES.README
+Which AWS service was used most by the user who did not use access keys?
+Amazon Bedrock
+
+Which EC2 instance ID used the UserAvatarsProcessor role?
+i-0d2b8acdedc371589
+Someone assumed the EU-RemoteSupport IAM role. How did they name the role session?
+SecretSession
+Which user assumed the IAM role from the question above?
+sarah.braun
+
+Under which ARN does the Splunk integration authenticate?
+arn:aws:iam::398985017225:root
+When was the over-privileged integration access key created?
+2025-12-29 19:59:23
