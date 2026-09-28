@@ -1,0 +1,32 @@
+When did Alex disable the "S3 Public Access Block" feature?
+2025-12-31 17:48:12
+What is the SID of the applied policy that made the bucket public?
+TempAccessDeniedDebug
+Which IP address started the bucket scan soon after it was exposed?
+212.8.250.220
+How many filenames were attempted, and which file was exfiltrated?
+53, repo.zip
+
+Which security group did Emma create, and which risky service did it expose?
+website-access-sg, SSH
+Which EC2 instance ID was created shortly after and uses that security group?
+i-082579354380296e6
+According to the GuardDuty alert, which IP soon attacked the instance?
+45.78.205.134
+When did Emma revoke the insecure rule from the security group?
+2025-12-31 21:58:34
+
+What is the name (instance identifier) of the created RDS instance?
+db-thm-preprod-qa
+Which two events indicate the database is Internet-exposed?
+dcb54877, 0a3b23c1
+
+What was the second Discovery command the adversary ran?
+ListAttachedUserPolicies
+Which other IAM user did the adversary discover and backdoor?
+lars.andersen
+
+What does the acronym DoW stand for?
+Denial of Wallet
+Should you monitor DoW with the same effort as DoS? (Yea/Nay)
+Yea
