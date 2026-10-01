@@ -1,0 +1,20 @@
+What is the ASN number related to the IP?
+212238
+Which service is offered from this IP?
+VPN
+What is the filename of the file related to the hash?
+zY9sqWs.exe
+What is the threat signature that Microsoft assigned to the file?
+Trojan:Win32/LummaStealer.PM!MTB
+One of the contacted domains is part of a large malicious infrastructure cluster. Based on its HTTPS certificate, how many domains are linked to the same campaign?
+151
+The file matches one of the YARA rules made by "kevoreilly". What line is present in the rule's "condition" field?
+uint16(0) == 0x5a4d and any of them
+The file is also mentioned in a threat intel report. What is the title of the report mentioning this hash?
+Behind the Curtain: How Lumma Affiliates Operate
+Which team did the author of the malware start collaborating with in early 2024?
+GhostSocks
+A Mexican-based affiliate related to the malware family also uses other infostealers. Which mentioned infostealer targets Android systems?
+CraxsRAT
+The report states that the affiliates behind the malware use the services of AnonRDP. Which Mitre ATT&CK sub-technique does this align with?
+T1583.003
