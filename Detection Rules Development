@@ -1,0 +1,33 @@
+What user executed the recon commands?
+tryhatme.thm\sysadmin
+What is the Image of a false-positive identified in the results of the suggested query?
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngentask.exe
+What is the executable name of the recon tool used by the attacker that is missing in the suggested query?
+nltest.exe
+
+Considering that 1 alert was generated for each recon command performed by the attacker, how many alerts were generated?
+22
+What is the name of the detection rule type responsible for creating atomic detections on Elastic?
+Custom query
+
+How many alerts were generated related to a password spraying pattern?
+1
+What is the attack IP, and how many total failure attempts did the attacker IP have?
+5.62.18.132, 50
+How many usernames did the attacker test?
+10
+
+What field would be the best to be configured as a suppression field for your detection?
+source.ip
+Removing the with runs condition from the EQL sequence would reduce the number of duplicate alerts. What type of alerts would your detection be more susceptible to generating with that change?
+False Positive
+
+What Elastic rule type uses anomaly detection jobs and statistical baselines to identify deviations from normal activity?
+Machine Learning
+A user who normally logs in between 08:00 and 18:00 authenticates at 03:00. This data point is only abnormal because of the timing context. What type of anomaly is this?
+Contextual
+
+What is the attacker's LogonId?
+0x557e9
+What type of tuning strategy did you apply in this task?
+Full Rework
