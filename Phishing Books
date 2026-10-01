@@ -1,0 +1,24 @@
+Which specific header check explains why Isabella received the email without being rejected by the email platform?
+DMARC=none
+What technique did the attacker use to make the message seem legitimate?
+Typosquatting
+Which MITRE technique and sub-technique ID best fit this sender address trick?
+T1583.001
+What is the file extension of the attached file?
+.html
+What is the MD5 hash of the .HTML file?
+442f2965cb6e9147da7908bb4eb73a72
+What is the landing page of the phishing attack?
+http://lib-service.com:8083
+Which MITRE technique ID was used inside the attached file?
+T1027
+What is the hidden message the attacker left in the file?
+I love to phish books from libraries ^^
+Which line in the attached file is responsible for decoding the URL redirect?
+var src = reversed.split("").reverse().join("");
+What is the first URL in the redirect chain?
+http://xn--librarytlu-13cwe32432-kwr.com:8082
+What is the Threat Actor associated with this malicious file and/or URL?
+Cobalt Dickens | Silent Librarian
+What is the main target of this Threat Actor according to MITRE?
+Research and Proprietary Data
