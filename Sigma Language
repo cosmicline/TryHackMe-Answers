@@ -1,0 +1,30 @@
+What is the best tool to convert a Sigma rule to a Splunk query with an interactive web interface?
+uncoder.io
+What is the best tool to convert a Sigma rule to a Splunk query as part of an automated pipeline?
+sigma-cli
+
+Based on the rule metadata, what is a known malware that uses this technique?
+Emotet
+What is the name of the selection that is excluding a specific CommandLine parameter?
+filter_optional_remote_signed
+What field is used on selection_img to prevent the usage of a renamed PowerShell executable?
+OriginalFileName
+
+Which category is the best for covering both Sysmon Event ID 1 and Windows Security Event ID 4688?
+process_creation
+What is the command you use to test if a Sigma rule is working properly?
+sigma check
+
+After the conversion, which field was used for CommandLine in Splunk SPL?
+Processes.process
+After the conversion, which field was used for Image in Microsoft Sentinel KQL?
+FolderPath
+After the conversion, which field was used for CommandLine in Elastic EQL?
+process.command_line
+
+What is the flag for the PowerShell Download Cradle rule?
+THM{P0W3R_SH3LL_CR4DL3}
+What is the flag for the Credential Dump Staging via rundll32 rule?
+THM{CR3D_DUMP_4TTCK}
+What is the flag for the Renamed PsExec Execution rule?
+THM{R3N4M3D_P53X3C}
