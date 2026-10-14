@@ -1,0 +1,32 @@
+What is declared after a threat is confirmed?
+Incident
+What must be completed on an alert before the IR process can formally begin?
+Alert triage
+
+How many phases does the NIST SP 800-61 IR lifecycle have?
+4
+According to NIST SP 800-61, what phase follows Containment, Eradication, and Recovery?
+Post-Incident Activity
+
+What document tracks the handling of evidence from collection through to storage?
+Chain of Custody Documents
+
+What type of log records who performed an action, what the action was, and how the system responded?
+Audit log
+What technology provides a centralized platform for collecting and analyzing logs across an organization's infrastructure?
+SIEM
+What term describes the situation where logs are collected but no alerting rules exist to flag suspicious activity?
+Detection gap
+
+According to the asset inventory, what is the IP address of the mail server?
+10.10.10.2
+According to the pentest report, what authentication control is flagged as missing on standard user accounts?
+Multi-Factor Authentication
+According to the pentest report, how many high-severity findings were identified?
+2
+According to the historic incidents log, what type of attack was recorded in NXF-INC-001?
+Phishing Campaign
+What is the minimum password length configured on this workstation?
+6
+What is the audit setting configured for Audit account logon events?
+No auditing
