@@ -1,0 +1,34 @@
+What term describes the process of confirming a security incident has actually occurred?
+Detection
+What term describes the process of understanding the full extent of an incident, including affected accounts, systems, and data?
+Analysis
+
+What type of IR trigger would a threat intelligence provider notifying an organization of a compromise be classified as?
+Third-party notification
+What system should be used to log every action, finding, and decision made during an IR investigation?
+Ticketing systems
+
+What does IOC stand for?
+Indicator of Compromise
+What IR tool provides a running record of every malicious indicator discovered during an investigation?
+IOC Tracker
+
+What was the IP address from which these suspicious sign-in events originated?
+223.123.4.50
+What city did the suspicious sign-in originate from?
+Amsterdam
+What was the exact timestamp of the first successful suspicious sign-in on Laura Chen's account? (Format: YYYY-MM-DD HH:MM:SS)
+2026-03-30 16:41:30
+What was the subject line of the email delivered to Laura Chen before the suspicious sign-in?
+HR Policy Update — Immediate Action Required
+What was the sender domain of the phishing email?
+nexus-verify.thm
+
+How many Nexus Financial accounts show sign-in activity from the attacker's IP?
+2
+What is the email address of the second compromised account?
+k.patel@nexusfinancial.thm
+What is the name of the inbox rule created on Laura Chen's account?
+Junk Filter Update
+How many Nexus Financial employee accounts received the initial phishing email?
+2
