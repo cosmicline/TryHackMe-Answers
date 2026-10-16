@@ -1,0 +1,34 @@
+According to NIST SP 800-61r2, what is the first activity that must happen before eradication can begin?
+Containment
+
+What containment strategy involves monitoring the attacker's activity rather than cutting off their access immediately?
+Controlled isolation
+
+What timeframe should the most critical recovery actions fall under?
+Near term
+
+What keywords does the malicious inbox rule on Laura Chen's account filter for? (Answer in the same format as inside the log)
+security;alert;suspicious;password;verify
+What is the value of the DeleteMessage field in the malicious inbox rule on Laura Chen's account?
+True
+What is the name of the inbox rule created on the second compromised account?
+Security Updates
+Based on Task 3, what containment action should be taken against these inbox rules?
+Remove the malicious inbox rules immediately
+How many internal Nexus Financial employees received the internal phishing email?
+3
+Based on Task 3, what containment action should be taken against the phishing domain?
+Block phishing domain at the email gateway
+
+How many files were downloaded from SharePoint across both compromised accounts?
+5
+What is the name of the first file downloaded by the attacker from Laura Chen's account?
+Board_Meeting_Notes_July.docx
+Based on Task 4, what eradication action should be taken against the external sharing links created by the attacker?
+Revoking all external sharing links created by the attacker from SharePoint
+What risk level was assigned to the attacker's sign-ins by Microsoft's risk engine?
+none
+What authentication control was absent that allowed the attacker to sign in without additional verification? (Please input the abbreviation of the term)
+MFA
+According to the recovery timeframes in Task 4, what timeframe should MFA enforcement fall under?
+Near term
