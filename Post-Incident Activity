@@ -1,0 +1,29 @@
+What is the name of the structured discussion held after an incident to review what happened and identify improvements?
+Lessons learned meeting
+According to NIST SP 800-61r2, which phase does Post-Incident Activity feed back into?
+Preparation
+
+What type of incident report is written for a non-technical audience, such as leadership and legal counsel?
+Executive Summary
+Which report type would contain specific IOCs, MITRE technique IDs, and exact timestamps?
+Technical Summary
+
+What term describes the situation where too many alerts are generated, causing analysts to miss real threats?
+Alert fatigue
+What Microsoft tool measures an organization's security posture across Microsoft 365 services?
+Microsoft Secure Score
+
+What was the initial attack vector used to compromise Laura Chen's account?
+Phishing
+Even after the victim entered their credentials on the phishing page, what security control would have prevented the attacker from gaining access? (Please input the abbreviation of the term)
+MFA
+How many employees were put at risk by the internal phishing email?
+3
+What was the first log source that identified the suspicious activity?
+Entra ID sign-in logs
+Which file downloaded by the attacker contains personally identifiable information of Nexus Financial employees?
+Full_Employee_PII_Data.xlsx
+For improving future detections, which Operation is relevant to highlight for detecting suspicious Inbox Rule Creations?
+New-InboxRule
+For improving the future detections, which field in Entra ID logs can be used to detect authentications coming from unusual countries?
+location.countryOrRegion
