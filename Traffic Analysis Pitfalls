@@ -1,0 +1,29 @@
+How many connections in the Fortigate logs have a dst_category of Bulletproof Hosting?
+4
+Looking at the hourly beaconing results, what is the minimum min_b value in the hourly results, representing the beacon keepalive size in bytes?
+800
+
+Run the transport breakdown query. How many port 443 sessions in the Zeek logs use QUIC (UDP/443)?
+6946
+Run the anomalous QUIC session query. What is the duration in seconds of the session that exceeds one hour?
+15180
+
+Run the all-hosts DNS timechart below. On what date does WKST-MKTG-07 (10.10.12.23) first appear with zero UDP/53 queries? (Answer Format: YYYY-MM-DD)
+2026-03-27
+From the DoH confirmation query results, how many total DoH connections does WKST-MKTG-07 make on 2026-03-27 across both resolvers?
+26
+
+Run the process count query against 172.67.153.42. Which process is responsible for the most connections to this destination?
+C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+
+Run the baseline enrichment query. How many FortiGate connections resolve to a dst_category of Tor Exit / Anonymisation?
+6
+Run the high-risk filter query. What is the srcname of the workstation connecting to a Tor exit relay?
+WKST-HR-02
+
+How many bytes were transferred outbound in the April 2 exfiltration event?
+847823104
+Run the process count query. How many connections does EXCEL.EXE make to 172.67.153.42?
+6108
+What is the last_seen timestamp for EXCEL.EXE (PID 4812)?
+2026-04-06 21:55:44
