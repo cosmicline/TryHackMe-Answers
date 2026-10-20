@@ -1,0 +1,31 @@
+Which workstation fires this rule most often after fixing flow direction, despite never making an outbound GET request?
+10.14.22.202
+After tightening the content match to content:"GET ", depth 4, how many alerts does the rule produce?
+30
+
+After writing the behaviour-based rule and running it against task-03-beaconing.pcap, how many alerts does it produce?
+25
+What is the source IP address of the host that crosses the detection threshold in task-03-beaconing.pcap?
+10.14.22.88
+
+Before adding any suppression entry, how many total alerts does Snort produce against task-04-noisy-traffic.pcap?
+39887
+After suppressing 10.14.22.199, how many alerts does Snort produce against task-04-noisy-traffic.pcap?
+52
+
+After enabling the reputation inspector and running it on task-05-ti-integration.pcap, how many alerts are produced?
+20
+
+How many false positive alerts fire when running the shipped ruleset against task-06-clean.pcap?
+15
+After fixing sid 1000005 and re-running against task-06-dirty.pcap, how many times does the corrected rule fire?
+3
+
+Before adding the suppression entry, how many alerts does the beacon rule produce?
+170
+Which source IP on the Finance subnet is responsible for the beacon-rule noise that must be suppressed?
+10.14.22.99
+After adding the suppression entry, how many SID 1000100 alerts remain?
+25
+After loading the blocklist, how many reputation inspector alerts appear in the final summary?
+12
