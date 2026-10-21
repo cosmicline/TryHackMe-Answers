@@ -1,0 +1,35 @@
+What is the first internal host that 10.14.22.88 attempts to reach on TCP/445 with conn_state S0?
+10.14.22.10
+What is the last timestamp observed for the repeated TCP/443 sessions from 10.14.22.88 to 194.165.16.56?
+1763092746.812696
+
+What DNS record type is used by the long exfil-channel.net queries from 10.14.22.88?
+txt
+A DNS query immediately precedes the 03:15 UTC HTTP POST exfiltration. What is the full domain name of that query?
+backup.corpfiles-sync.com
+Which domain in dns.log resolved to the IP address 194.165.16.56?
+update.softpatch-cdn.com
+
+What is the value of the uri field in http.log for the POST from 10.14.22.88 to 185.213.154.201?
+/upload/data
+How many TLS sessions to 194.165.16.56 have an empty server_name field?
+82
+
+What is the value of the filename field in files.log for the file Zeek extracted from the 5.3 MB POST?
+backup_archive.zip
+A file in files.log has filename: invoice_march.pdf but a different mime_type. What MIME type does Zeek report for the file content?
+application/x-dosexec
+Take the SHA256 of backup_archive.zip from files.log and search for it in /home/ubuntu/threat-feed.csv. What family name is in the matching row?
+CobaltStrikeStager
+
+What is the difference, in bytes, between the orig_bytes value in conn.log and the request_body_len value in http.log for the exfiltration connection?
+192
+How many bytes did the responder return as the file body in files.log for the same uid?
+7
+Using the destination IP 185.213.154.201, search dns.log for the query that resolved to it. What is the queried domain?
+backup.corpfiles-sync.com
+
+Before tuning the script, how many total notices does dns_notice.zeek generate?
+23
+After suppressing 10.0.0.53 and rerunning Zeek, how many notices remain?
+10
