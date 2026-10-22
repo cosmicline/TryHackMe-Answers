@@ -1,0 +1,24 @@
+How many rows of results are captured in investigation-Data in Zui?
+1807
+
+Run the beaconing hunt query; what is the source IP of the host with the highest external connection count to a single destination?
+10.14.22.88
+What TLS server name is associated with the beaconing destination?
+update.softpatch-cdn.com
+
+What is the orig_bytes value for the largest external upload?
+5348854
+What URI was used for the HTTP POST to the exfiltration endpoint?
+/upload/data
+What is the filename of the archive POSTed to 185.213.154.201 over plain HTTP?
+backup_archive.zip
+What is the MD5 hash value of the ZIP file downloaded by the Finance workstation?
+03237a4102d830519fa0dfb47c88c467
+
+How many unanswered SMB SYN attempts did 10.14.22.88 generate?
+23
+What destination IP did 10.14.10.15 reach over LDAP and SMB during the second hop?
+10.14.0.5
+
+How many connections go to the Fastly CDN IP that appears as a false positive in the beaconing query?
+55
