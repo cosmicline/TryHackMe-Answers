@@ -1,0 +1,33 @@
+How many unique destination IPs does 10.14.22.88 scan inside the capture window?
+87
+How many plain HTTP beacon requests from 10.14.22.88 to 194.165.16.56 are present in the capture?
+23
+
+What is the request URI that every HTTP beacon from 10.14.22.88 targets?
+/api/v2/check
+What command does the base64 value in the cmd field decode to?
+whoami
+
+Following the FTP control stream from the investigation PCAP, what password is transmitted in cleartext?
+S3cur3P@ssw0rd!
+What PowerShell command in the reverse shell packages the Documents folder?
+Compress-Archive -Path C:\Users\jsmith\Documents\* -DestinationPath C:\Temp\docs.zip
+Following the 302 redirect chain, what is the name of the malicious file accessed from the compromised machine?
+winservice-patch-4891.pdf
+
+Using Export Objects > HTTP, extract the executable from the investigation PCAP. What is its SHA256 hash?
+4ec66c72e7d80620891118cb32206771ac37a227b6e77a2549b046748d8c234b
+What is the SHA256 hash of the 5.3 MB archive POSTed to 185.213.154.201?
+d17a83cf82a3cf4e5b3891e8b0923d00b22181e3079624cec60ca105c0eaf369
+Which malware family does the cross-reference against threat_feed.txt assign to the extracted executable?
+Cobalt Strike
+
+What is the subject CN on the exported C2 certificate?
+update.softpatch-cdn.com
+What JA4 fingerprint does every Client Hello to the C2 host produce?
+t13d040400_98dd3bb0ed34_34f36fd09b12
+
+Run the DNS tunnel hunting filter on the PCAP. What parent domain do the long-subdomain queries target?
+exfil.fastsync-cdn.net
+How many unique external IPs does extract_iocs.sh write to external_ips.txt?
+8
