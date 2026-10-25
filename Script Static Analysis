@@ -1,0 +1,35 @@
+What program parses script code and translates it to machine instructions?
+Interpreter
+
+Who is the "author" of the malicious script?
+Kevin McCallister
+What function stands out among the others?
+collectDiagnostics127
+
+What is the full URL containing the second-stage payload?
+https://crash-diagnostics.thm/a.exe
+What is the name of the saved second-stage payload?
+watchdog.exe
+What is the full URL from where the malware is downloaded?
+https://psxh17.thm/upd.exe
+Where does malware put the downloaded file? (Full path)
+C:\ProgramData\upd.exe
+
+What XOR key (in decimal) is used to encrypt the malware?
+33
+What is the MD5 hash of the injected shellcode?
+27B0D51406B5360B49D968D69DF0F3E6
+What C2 agent does the shellcode contain?
+Cobalt Strike
+
+What value is used to derive the encryption key?
+c5d2b969-b61a-4159-8f78-6391a1c805db
+What flag is hidden behind the secret bytes?
+THM{keyed_with_machine_guid!}
+
+What is the name of the malware?
+GlassWorm
+What method does malware use to get graphical desktop access to the victim?
+HVNC
+What main function implements the infostealing process?
+extractAllBrowsers
