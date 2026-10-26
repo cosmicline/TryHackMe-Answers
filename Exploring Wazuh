@@ -1,0 +1,24 @@
+What is the status of the agents managed by this Wazuh?
+Disconnected
+Click on the Windows agent. What is the CPU field value?
+AMD EPYC 7571
+
+Open the Windows agent and navigate to its IT Hygiene tab. What custom text editor is installed there (Software > Packages)?
+Notepad++
+Now open the Linux agent and its Configuration Assessment tab. What is the CIS Benchmark score of the Linux agent (e.g., 65%)?
+46%
+
+What is the latest Notepad++ vulnerability found on the Windows agent? Provide the most recent CVE number.
+CVE-2026-25926
+What is the earliest critical vulnerability found on the Linux agent? Provide the oldest CVE number.
+CVE-2021-3773
+
+Navigate to Discover and search for Defender alerts for the last 5 years. You can use the query: data.win.system.eventID: 1116. What is the threat name of the detected malware?
+Trojan:Win32/CobaltStrike.PU!MTB
+Navigate to the Demo Dashboard. How many total events are shown?
+5495
+
+How do you call the Wazuh element that extracts fields from raw logs?
+Decoder
+What Wazuh alert is more critical, the one with rule.level set to 10 or 15?
+15
