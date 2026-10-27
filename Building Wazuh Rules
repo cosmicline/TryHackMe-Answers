@@ -1,0 +1,28 @@
+What decoded (parsed) field contains the value tryhackme.com?
+website
+What is the last field extracted by the thm-web decoder?
+useragent
+
+Which rule description was applied to the third tested web event?
+Custom - THM Web Request
+In the Rules panel, search for and open the prebuilt rule 92068. Which field does this rule check for the PSEXEC keyword?
+win.eventdata.parentCommandLine
+
+What MITRE tactic do you see in the Ruleset Test output for the brute-force alert?
+Credential Access
+Which IP address matched the CDB list and generated a "Bad IP" alert?
+158.51.96.38
+
+How many times did the adversary fail to log in to rick.brown?
+18
+Find the definition of the brute force rule in the Wazuh rule files. What is the hidden flag you see at the end of the rule file?
+THM{wazuh_detection_engineer}
+A CDB rule from the same file caught another adversarial action. Which IP address matched the rule and generated Wazuh alerts?
+92.118.39.57
+Which program initiated the connection to the detected IP address?
+certutil.exe
+
+A Linux process creates a file named shell-checker-thm.sh. What rule ID will be triggered according to the task?
+100006
+A Linux process creates a file named malware.elf. What will be the level of the generated alert?
+12
