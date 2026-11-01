@@ -14,13 +14,10 @@ Who is your current L2 in the SOC dashboard (opens in new tab) that you can assi
 E.Fleming
 What flag did you receive after correctly escalating the alert from the previous task to L2?
 THM{good_job_escalating_your_first_alert}
-
-Now, investigate the second new alert in the queue and provide a detailed alert comment.
-Then, decide if you need to escalate this alert and move on according to the process.
 After you finish your triage, you should receive a flag, which is your answer!
 THM{looks_like_webshell_via_old_exchange}
 
 Should you first try to contact your manager in case of a critical threat (Yea/Nay)?
-Yea
+Nay
 Should you immediately contact your L2 if you think you missed the attack (Yea/Nay)?
 Yea
