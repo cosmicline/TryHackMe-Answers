@@ -1,0 +1,43 @@
+According to the Messageheader analysis shown in this task, what is the SPF result for the email?
+pass
+
+What command can you use in a Linux environment to obtain the SHA256 hash value of an attachment?
+sha256sum
+
+According to the VirusTotal analysis from above, which vendor categorized the URLs as phishing?
+SafeToOpen
+
+What reputable brand is this email tailored to impersonate?
+Netflix
+Based on the email headers, who is the intended recipient of this message?
+redacted@yahoo.com
+In Thunderbird mail use View → Message Source. What is the Received: from IP address?
+10.197.37.234
+Check out the Return-Path field in the message source. What would you consider a domain of interest based on this field?
+etekno.xyz
+Investigate the UPDATE ACCOUNT NOW button. What is the shortened URL?
+https://t.co/yuxfZm8KPg?amp=1
+
+How does ANYRUN classify this suspected phishing email?
+Suspicious activity
+What is the name of the malicious PDF attachment?
+Payment-updateid.pdf
+What is the MD5 hash of the PDF file from Q2?
+4a2775eae2ebef41901a3f08d3b857c8
+The PDF attachment contains a malicious URL. What URL is shown in the Processes tab on the right?
+https://lihi1.com/JqdmJ
+Navigate to the Connections (or DNS Requests) tab. Which IP does the domain from Q4 resolve to?
+35.244.149.249
+
+What is the file name of the malicious Excel attachment?
+CBJ200620039539.xlsx
+What suspicious process is created after the attachment is launched?
+EQNEDT32.EXE
+Select the process and open its details ("More Info" menu). What is the full path to the malicious binary?
+C:\Program Files\Common Files\Microsoft Shared\EQUATION\EQNEDT32.EXE
+What vulnerability (CVE ID) does this malicious file attempt to exploit?
+CVE-2017-11882
+Next, the malicious file downloads COVID-themed malware. What domain was it downloaded from (e.g., malware.thm)?
+biz9holdings.com
+What network threat is associated with the download?
+ET INFO Suspicious GET Request with Possible COVID-19 URI M1
