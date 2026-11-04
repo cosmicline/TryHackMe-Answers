@@ -1,0 +1,38 @@
+Based on TryHackMe's SPF record above, how many domains are authorized to send email on its behalf?
+3
+What is the intended action of an email that returns a SoftFail verification result?
+Flag
+
+Based on the sample header above, what is the reason for the permerror?
+no key for signature
+
+Which DMARC policy provides the greatest amount of protection by blocking emails that fail the DMARC check?
+p=reject
+
+Which S/MIME component ensures that only the intended recipient can read the contents of an email message?
+Encryption
+
+Which Wireshark filter can you use to narrow down your results based on SMTP response codes?
+smtp.response.code
+How many packets in the capture contain the SMTP response code 220 Service ready?
+19
+One SMTP response indicates that an email was blocked by spamhaus.org. What response code did the server return?
+553
+Based on the packet from the previous question, what is the full Response code: message?
+Requested action not taken: mailbox name not allowed (553)
+Search for response code 552. How many messages were blocked for presenting potential security issues?
+6
+
+How many SMTP packets are available for analysis?
+512
+What is the name of the attachment in packet 270?
+document.zip
+According to the message in packet 270, which Host IP address is not responding, making the message undeliverable?
+212.253.25.152
+By filtering for imf, which email client was used to send the message containing the attachment attachment.scr?
+Microsoft Outlook Express 6.00.2600.0000
+Which type of encoding is used for this potentially malicious attachment?
+base64
+
+A security team wants to implement a control to detect hidden malware inside email attachments. They need a way to analyze suspicious files without risking infection on real systems. Which protective technique would allow them to observe a file's behavior safely?
+Sandboxing
