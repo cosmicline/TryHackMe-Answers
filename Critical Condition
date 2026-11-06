@@ -1,0 +1,20 @@
+What is the name of the script downloaded by the attacker using the VPN executable?
+st2.ps1
+What is the PR#1 flag?
+THM{W0rk3r_Pr0cess_G0nE_R0gue}
+Which account ran the DCSync attack?
+svc_netgate
+What is the PR#2 flag?
+THM{R3pl1c4t3_4ll_th3_Th1ngs}
+When did the SMBexec execution happen?
+03/02/2026 03:47:33.000
+What is the PR#3 flag?
+THM{N0_B1n4ry_N0_Pr0bl3m}
+What is the parent command line that was responsible for deleting the shadow copies in the host?
+cmd.exe /Q /c echo <cmd> ^> \\127.0.0.1\ADMIN$\__1706930112.558359 2^>^&1 > C:\Windows\Temp\execute.bat
+What is the PR#4 flag?
+THM{Sh4d0w_C0p13s_G0ne}
+What is the first hostname on which persistence was installed?
+CHHN-PC03
+What is the PR#5 flag?
+THM{Sv6ch0st_D035Nt_L1ve_1n_T3mp}
