@@ -1,6 +1,8 @@
 When did the ubuntu user log in via SSH for the first time?
+2024-10-22
 Did the ubuntu user use SSH keys instead of a password for the above found date? (Yea/Nay)
 Yea
+
 When did the SSH password brute force start?
 2025-08-21
 Which four users did the botnet attempt to breach?
@@ -24,4 +26,3 @@ Which Initial Access technique is likely used if a trusted app suddenly runs mal
 Supply Chain Compromise
 Which detection method can you use to detect a variety of Initial Access techniques?
 Process Tree Analysis
-
