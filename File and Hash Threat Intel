@@ -32,7 +32,7 @@ What is the SHA256 hash of the file?
 What family labels are assigned to the file on VirusTotal?
 akira, filecryptor
 When was the first time the file was recorded in the wild? (Answer Format: YYYY-MM-DD HH:MM:SS UTC)
-2024-10-30 17:17:24 UTC
+2023-07-10 08:22:15
 Name the text file dropped during the execution of the malicious file.
 akira_readme.txt
 What PowerShell command is observed to be executed?
