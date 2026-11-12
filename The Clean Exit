@@ -1,0 +1,20 @@
+A storage device was connected to Turner's workstation on the day of the incident. What is its serial number?
+MSFT300123456789ABCDEF
+What was the name of the storage device Turner connected with the workstation?
+PERSONAL_BACKUP
+An executable was run on Turner's workstation on the same day. Its name clearly reflects the intent behind running it. What is its name?
+exfiltool.exe
+The first attempt failed. Turner then used a Windows-native background transfer mechanism to try again. What domain was he targeting?
+evil-external.thm
+What was the name of the archive Turner prepared to send to that domain?
+FinanceDocs.zip
+Both direct transfer attempts from the workstation failed. Turner then accessed another internal system before moving the data. What is the name of that system?
+GTM-JUMP-01
+The client reported that vendor contracts are missing. Turner browsed the finance directory locally before removing it. What was the name of the folder containing those contracts?
+VendorContracts_Q3
+What was the last interaction time of that restricted folder that Turner accessed? (Format: HH:MM:SS)
+18:17:30
+Turner successfully moved the archive to the internal system he accessed. What was the full path of the location he copied it to?
+\192.168.86.172\Staging$
+Turner deleted several files to cover his tracks. When was the firewall log deleted? (Format: HH:MM:SS AM/PM)
+06:21:40 PM
