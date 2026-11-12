@@ -1,0 +1,38 @@
+Which CDN does the purematrixa[.]com domain use?
+Cloudflare
+According to the report, how old was the domain when SIEM raised an alert?
+1 days old
+
+What country does the malicious IP resolve to?
+Netherlands
+Looking at VirusTotal comments, what C2 server is hosted behind the IP?
+Remcos
+What Autonomous System does the IP belong to? (Full name)
+1337 Services GmbH
+What two tags does BPG.Tools attribute to the ASN? (Tag1, Tag2)
+Server Hosting, Tor Services
+
+What remote access service is exposed?
+RDP
+How many ports have been identified as open on the server?
+9
+One of the exposed services leaks an active C2 server! What is the name of that C2? (E.g., Cobalt Strike)
+AsyncRAT
+For how many days is the C2 server's certificate valid?
+3935
+
+Would you raise the alarm and prioritize the alert (Yea/Nay)?
+Yea
+Would you close the alert as a False Positive then? (Yea/Nay)
+Nay
+
+What IP does the domain resolve to?
+35.188.105.97
+What cloud provider did the attacker use? (E.g., Amazon Cloud)
+Google Cloud
+What country is the malicious server located in? (E.g., France)
+United States
+When was the malicious domain name created? (E.g., 24.05.2026)
+21.02.2026
+According to the exposed service, what is the attack server's OS?
+Linux
