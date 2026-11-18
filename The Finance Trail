@@ -1,0 +1,20 @@
+The finance employee's workstation ran a program from inside a downloaded ZIP. Find the delivered email whose sender domain also hosted that ZIP. What is its Message-ID, without angle brackets?
+20261009022902.06.1a247614eaf9@lawson-rowe-review.com
+After the lure email arrived, which parent executable launched the browser process that opened the external review site? Give the .exe filename.
+VantaraFinancePortal.exe
+On the affected workstation, what SHA-256 did Sysmon's file-stream hash event record when Chrome saved the ZIP that contained the executed loader?
+98D66005B3F2CFD556EEF503EC1ADA73DE34C24D3800D41D8E30C43AF32DEDEF
+What SHA-256 do the extracted loader and installed sync client share in their process-creation events?
+AAD4B231C4AFC7D02A09344545A957086FE36CD6A9CCA8F1F92E1AC3DDFFAC5C
+Which scheduled task belongs to the loader's process lineage, not routine document syncing? Omit the leading backslash.
+VantaraUpdateCheck
+The sync client did not call out the moment it started. How many seconds passed between its Sysmon process-creation UtcTime and its first command-and-control (C2) callback in the Nginx web log, rounded to the nearest second?
+47
+For the loader-installed sync client's first successful callback from the affected workstation, which local TCP source port appears in both Suricata HTTP and the Windows Filtering Platform (WFP) allowed-connection event?
+50611
+The main C2 server returned HTTP 503, and after that the sync client used a backup domain. In Suricata, the Domain Name System (DNS) answer of type A for the backup domain was recorded before that 503. How many milliseconds before the 503 was it recorded, to three decimal places?
+8.307
+Find the PowerShell process that created the archive later written to the share. In that workstation's captured Sysmon process-creation history, which executable last used its process ID before PowerShell started? Give the .exe filename.
+elevation_service.exe
+The attacker staged an archive on the workstation and then moved it to the file server. How many whole seconds passed between the archive’s Sysmon file-creation UtcTime and its successful SMB2 WRITE in Suricata?
+11
