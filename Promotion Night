@@ -1,0 +1,26 @@
+What was the network share path where ransomware was placed?  
+\\DC-01\SYSVOL\gaze.exe
+What is the value ransomware created to persist on reboot?  
+BabyLockerKZ
+Which MITRE technique ID was used to deploy ransomware?  
+T1047
+What ports of SRV-ITFS did the adversary successfully scan?  
+135, 139, 445, 3389, 5985
+What is the full path to the malware that performed the Discovery?  
+C:\Windows\System32\fr-FR\ruche.dll
+Which artifact did the adversary create to persist on the beachhead?  
+LanguageSync
+What is the MD5 hash of the embedded initial shellcode?  
+27B0D51406B5360B49D968D69DF0F3E6
+Which C2 framework was used by the adversary in the intrusion?  
+Cobalt Strike
+What hostname did the adversary log in from on the beachhead?  
+DESKTOP-J9PR0CO
+What was the UNC path that likely contained AWS credentials?  
+\\SRV-ITFS\Integrations\cloud-keys.csv
+From which IP address did the adversary access AWS?  
+152.42.128.207
+Which two sensitive files did the adversary exfiltrate from AWS?  
+beta.tar.gz, latest.tar.gz
+What file did the adversary upload to S3 in place of the wiped ones?  
+YOU-HAVE-BEEN-PWNED.txt
