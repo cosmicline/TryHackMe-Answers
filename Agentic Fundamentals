@@ -1,0 +1,38 @@
+Which OWASP-defined agentic capability ensures that each moment is not treated as a blank slate, but informed by what has already happened?
+Memory & Statefulness
+Which OWASP-defined agentic capability works out the order in which things need to happen?
+Planning & Reasoning
+Which OWASP-defined agentic capability ensures that each moment is not treated as a blank slate, but informed by what has already happened?
+Action & Tool Use
+
+What do agents use to perform actions in the real world?
+tools
+What is the name of the practice dedicated to meaningfully designing applications so agents can interact with them more efficiently?
+ACI
+
+
+How many times more tokens can a multi-agent system use than a single conversation?
+15
+What is the name of the agent that all sub-agents report back to?
+Orchestrator
+
+What is the name of the shared standard for connecting an AI agent to the tools and data it needs?
+MCP
+What are the three roles MCP defines? (Format: Comma-separated list, in the order they are defined in the task)
+Host, Client, Server
+What is the name of the term which defines when agents engage an external agent?
+A2A
+
+OWASP has expanded on the concepts of Least-Privilege and Excessive Agency to define what term?
+Least Agency
+Which control ensures that an agent holds onto permissions for the exact window it needs them, rather than indefinitely?
+Time-boxed access
+
+WWhich agent did the orchestrator delegate to, and what is its Inspector identity label?
+logistics-specialist
+What tool did the specialist call to retrieve the shipment record?
+query_shipment_manifest
+Which shipment is awaiting clearance?
+OX-1102
+What is the cargo of the critical handling shipment?
+Medical Equipment
