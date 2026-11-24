@@ -1,0 +1,35 @@
+Which agent delegates work to specialist agents?
+Orchestrator
+Which field/concept identifies the credential under which a tool call executes?
+Identity
+Which protocol may connect an agent to externally hosted tools and resources?
+MCP
+
+What type of boundary exists when information moves between components with different security assumptions?
+Trust boundary
+What term describes the tools, credentials, permissions, and delegated access that allow an agent to take actions in connected systems?
+Authority
+What are the four core elements introduced in this task for understanding a system before identifying threats? (Format: Ordered how they are introduced in this task.)
+Assets, components, data flows, trust boundaries
+
+What turns an agent's decision into an action against another system?
+Tools
+Is every attack surface automatically a vulnerability? (Yea/Nay)
+Nay
+What determines the authority available to a tool call?
+Credentials
+
+What is the first stage of the attack path where attacker-controlled information enters the system?
+Entry point
+Which part of the attack path explains what permissions made an action possible?
+Authority
+
+Which threat modelling framework categorises threats into Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege?
+STRIDE
+Which STRIDE category represents the exposure of sensitive information?
+Information disclosure
+Which prioritisation factor describes how many systems, users, or agents could be affected?
+Blast radius
+
+What flag is revealed after successfully completing the Agent Security Review Portal?
+THM{BR3AK_THE_AG3NTIC_ATT4CK_CHAIN}
