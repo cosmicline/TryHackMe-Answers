@@ -1,0 +1,35 @@
+After the request that started it, a grant_access call is followed directly by its result. Which stage left no record?
+Check
+At 3 am, an agent's tool call is followed by a control's decision and then the result, with no record of anything that asked for it. Which stage left no record?
+Start
+
+Which credential did docs-agent's read_service call in session S-40118 use?
+docs-read-svc
+Which of the four fields in OWASP's logging guidance does TryTrainMe's audit log not record?
+payload hash
+
+Which tool does access-agent call on every baseline day, sessions S-40119 to S-40121?
+check_role
+Which credential in access-agent's rows for session S-40122 is not in its baseline?
+access-write-svc
+A service desk request explains why access-agent took a new action, but anyone could have raised it. Which event type in the audit log shows that a person approved the action?
+approval.decision
+
+What is the ID of the shared memory note that could explain desk-agent's drift?
+M-0021
+A schedule keeps waking an agent, but nobody can say who set it up. Which event type should have recorded the person who created it?
+schedule.create
+
+Which control checked access-agent's grant in session S-40122?
+require_role_check_before_grant
+What does a kill switch stop that a checkpoint does not?
+the agent
+
+Which tool besides read_service and read_runbook did docs-agent call in session S-40126?
+read_transcript
+Which credential did log-agent's export_logs calls in session S-40126 use?
+telemetry-export-svc
+Which schedule woke log-agent before each export in session S-40126?
+SCH-0071
+Which decision does the approve_egress_tools control record next to each of log-agent's exports in session S-40126?
+not_evaluated
