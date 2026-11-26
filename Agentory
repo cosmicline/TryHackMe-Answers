@@ -1,0 +1,22 @@
+How many agents are marked Yes for taking in outside text?
+5
+Which agent takes in outside text and also reads shared memory?
+log-agent
+
+In tools.json, which switched-off rule on every read_untrusted_content tool would mark what agents read as data, not instructions?
+quarantine_output
+In queue.yaml, which switched-off control would verify the sender field of a message?
+sender_attestation
+In tools.json, which switched-off rule on recall_context would leave out notes saved by a session that had read outside text?
+filter_untrusted_provenance
+In tools.json, which switched-off rule on transcribe_call would label each spoken line with its source clip and time?
+preserve_modality_provenance
+In tools.json, which switched-off rule on the tool with the assume_role archetype would require a person's sign-off before raising the agent's identity?
+require_approval_for_elevation
+How many lines in session-S-40118.log show a guardrail control, switched on or off, checking a call?
+0
+
+In the read_mailbox Tool result, which address sent the email E-2224?
+reports@uptimewatch.example
+Which word did mail-agent add to the subject line in the send_mail Tool call?
+PRIORITY
