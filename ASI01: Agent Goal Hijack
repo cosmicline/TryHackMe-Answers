@@ -1,0 +1,28 @@
+What technique allows attackers to hijack an agent's goal by convincing the agent that the attacker-crafted message actually came from a trusted peer agent?
+Forged agent-to-agent message
+What technique allows attackers to hijack an agent's goal by tampering with data an agent retrieves upstream (for example, a database)?
+Poisoned external data
+What OWASP Top 10 for LLMs vulnerability does ASI01 closely resemble?
+Prompt Injection
+
+What role is assigned to a piece of text from a user message?
+user
+What role is assigned to a piece of text returned by a tool?
+tool_result
+
+Which CVE compromised a user’s phone through an incoming call that the victim never answered?
+CVE-2019-3568
+What was the name of Microsoft's agent which was attacked in the famous "EchoLeak" attack?
+Microsoft 365 Copilot
+Which functionality of Microsoft 365 Copilot made the EchoLeak attack possible?
+RAG
+
+Which mitigation did Microsoft actually have implemented?
+Treat all inputs as untrusted
+Which mitigation would establish a behavioural baseline that could flag unexpected goal shifts?
+Log and monitor for goal drift
+According to the task, which mitigation is the most direct match to the EchoLeak attack?
+Sanitise connected data sources
+
+Whats the flag hidden in the classified customer record?
+THM{g04l_h1j4ck_succ3ss}
