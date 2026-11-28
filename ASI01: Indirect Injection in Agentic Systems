@@ -1,0 +1,26 @@
+An attacker is targeting a scheduling agent, which delivery channel are they likely to use?
+Calendar
+The office LLM just got an upgrade! It now has access to a browsing tool, great for functionality but it now opens the agent up to what delivery channel?
+Web Pages
+Which delivery channel is an attacker likely using if disguising their payload as an FAQ?
+Documents
+
+Once a document is ingested, what happens to it next?
+Chunked
+The answer to the previous question is then embedded into what?
+Vector
+What did the attacker exfiltrate from the victim in the Slack AI case study?
+API Key
+
+The case study in this task used which delivery channel?
+Web Pages
+Which step in Brave's attack chain involved the user clicking on Comet's "Summarize the current webpage" button?
+Trigger
+
+Quiet mode instruction rides on what delivery mechanism?
+Direct Inclusion
+What OWASP Top 10 For Agentic Applications Vulnerability does this task foreshadow? (Format: ASIXX)
+ASI06
+
+Can you perform an indirect injection against this agentic system and get the flag?
+THM{1nd1r3ct_1nj3ct10n}
